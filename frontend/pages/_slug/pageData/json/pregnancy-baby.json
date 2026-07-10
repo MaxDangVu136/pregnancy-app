@@ -1,7 +1,7 @@
 {
   "title": "How do we check on baby's health",
   "id": "1.f",
-  "description": "Learn about the various methods healthcare providers use to monitor your baby's health and development throughout pregnancy.",
+  "description": "Learn about the various methods healthcare providers use to monitor your baby's health and development throughout pregnancy.\nPlease be aware that tests and scans only show part of the picture of your baby's health, your instinct and daily awareness of your baby's movements is just as important. If you have any concerns, even if the scan is normal, please contact your midwife or doctor right away.",
   "showModel": false,
   "contentSections": [
     {
@@ -34,10 +34,24 @@
     },
     {
       "id": "1.f.e",
-      "title": "Personalised assessment of pregnancy ",
+      "title": "Personalised assessment of pregnancy",
       "icon": "mdi-chart-bar",
       "iconColor": "var(--v-primary-base)",
       "component": "PregnancyPersonalisedAssessment"
+    },
+    {
+      "id": "1.f.f",
+      "title": "Blood pressure",
+      "icon": "mdi-ruler",
+      "iconColor": "var(--v-primary-base)",
+      "content": "Something about gestational hypertension. UPDATE ICON. "
+    },
+    {
+      "id": "1.f.g",
+      "title": "Urine dipstick",
+      "icon": "mdi-ruler",
+      "iconColor": "var(--v-primary-base)",
+      "content": "Something about preeclampsia. UPDATE ICON. "
     }
   ]
 }

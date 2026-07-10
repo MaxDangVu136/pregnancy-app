@@ -41,21 +41,22 @@
     <div v-if="userPoint" class="conclusion-section">
       <h3>Analysis Result</h3>
       <div class="conclusion-content">
-        <p><strong>Your measurement:</strong> {{ userPoint.bpd }}mm at {{ userPoint.week + 11 }} weeks</p>
-        <p><strong>Percentile position:</strong> {{ userPoint.percentile }}%</p>
-        <p><strong>Conclusion:</strong> {{ userPoint.conclusion }}</p>
+        <p><strong>Your measurement:</strong>&nbsp;{{ userPoint.bpd }} mm at {{ userPoint.week + 11 }} weeks</p>
+        <p><strong>Percentile position:</strong>&nbsp;{{ userPoint.percentile }}%</p>
+        <p><strong>Conclusion:</strong>&nbsp;{{ userPoint.conclusion }}</p>
         <p><strong>Reference values:</strong></p>
         <ul>
-          <li>5th percentile: {{ userPoint.p5 }}mm</li>
-          <li>50th percentile: {{ userPoint.p50 }}mm</li>
-          <li>95th percentile: {{ userPoint.p95 }}mm</li>
+          <li>5th percentile: {{ userPoint.p5 }} mm</li>
+          <li>50th percentile: {{ userPoint.p50 }} mm</li>
+          <li>95th percentile: {{ userPoint.p95 }} mm</li>
         </ul>
       </div>
     </div>
 
     <!-- reference -->
     <div class="reference-section">
-      <p>*Data comes from <a class="ml-1" href="https://www.asum.com.au/wp-content/uploads/2015/09/Fetal-Measurements.pdf" target="_blank"> ASUM</a></p>
+      <p>*Data comes from <a class="ml-1" href="https://www.asum.com.au/wp-content/uploads/2015/09/Fetal-Measurements.pdf" target="_blank"> ASUM</a>.</p>
+      <p><strong>Note:</strong>&nbsp;Seeing how your baby is growing over time is just as important as seeing what they are like at any one time.</p>
     </div>
   </div>
 </template>
