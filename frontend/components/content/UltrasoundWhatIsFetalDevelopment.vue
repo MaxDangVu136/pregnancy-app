@@ -1,28 +1,32 @@
 <template>
   <div>
     <v-card class="timeline-card">
-    <v-card-text>
-      At 5-6 weeks of gestation. This scan aims to:
-      <li>
-        Check the location of the pregnancy (that it is in the uterus and
-        not
-        <v-btn
-          text
-          small
-          color="primary"
-          class="medical-term-btn"
-          @click="showEctopicDialog = true"
-        >
-          ectopic</v-btn
-        >).
-      </li>
-    </v-card-text>
-  </v-card>
+      <v-card-text class="content-text">
+        <p>At 5-6 weeks of gestation. This scan aims to:</p>
+        <ul>
+          <li>
+            Check the location of the pregnancy (that it is in the uterus and
+            not
+            <v-btn
+              text
+              small
+              color="primary"
+              class="medical-term-btn"
+              @click="showEctopicDialog = true"
+            >
+              ectopic</v-btn
+            >).
+          </li>
+        </ul>
+      </v-card-text>
+    </v-card>
     <v-card class="timeline-card">
-      <v-card-text>
-        At 12 weeks of gestation. This is often the first scan you might have,
-        and aims to:
-          
+      <v-card-text class="content-text">
+        <p>
+          At 12 weeks of gestation. This is often the first scan you might
+          have, and aims to:
+        </p>
+        <ul>
           <li>Determine if there is a single baby or twins/triplets.</li>
           <li>Check the basic anatomy of the fetus.</li>
           <li>Listen to the fetal heartbeat.</li>
@@ -38,37 +42,35 @@
               nuchal translucency.
             </v-btn>
           </li>
+        </ul>
       </v-card-text>
     </v-card>
 
     <v-card class="timeline-card">
       <!--TODO Could also add in here about checking blood flow to the placenta / uterine artery dopplers  -->
       <!-- TODO: Link to doppler ultrasound in pregnancy after "How easily blood is flowing to the placenta" -->
-      <v-card-text>
-        At 20 weeks of gestation. This scan focusses on checking:
-      
+      <v-card-text class="content-text">
+        <p>At 20 weeks of gestation. This scan focusses on checking:</p>
+        <ul>
+          <li>Anatomy of all the major organs.</li>
           <li>
-           Anatomy of all the major organs.
-          </li>
-          <li>
-            That the limbs have formed (Arms, legs, hands and feet), and if any movement can be seen.
+            That the limbs have formed (arms, legs, hands and feet), and if
+            any movement can be seen.
           </li>
           <li>
             Your baby's growth by measuring the length of the main thigh bone
-            (the femur), the distance from the top of its head to the bottom of
-            its spine (crown-rump length), and the circumference of its head and
-            abdomen.
+            (the femur), the distance from the top of its head to the bottom
+            of its spine (crown-rump length), and the circumference of its
+            head and abdomen.
           </li>
           <li>How the heart is beating.</li>
+          <li>How easily blood is flowing to the placenta.</li>
           <li>
-            How easily blood is flowing to the placenta.
+            The amount of fluid around your baby. Low levels of amniotic fluid
+            can be an indicator of pregnancy complications.
           </li>
-          <li>
-            The amount of fluid around your baby. Low levels of amniotic fluid can be an indicator of pregnancy complications.
-          </li>
-          <li>
-            Where the placenta is growing.
-          </li>
+          <li>Where the placenta is growing.</li>
+        </ul>
       </v-card-text>
     </v-card>
 

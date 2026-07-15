@@ -4,14 +4,14 @@
     <div class="ultrasound-content">
       <!-- Introduction Paragraph -->
       <p class="text-lg leading-relaxed mb-6">
-        Doppler ultrasound is a specialized form of ultrasound imaging that uses the
+        Doppler ultrasound is a specialised form of ultrasound imaging that uses the
         <v-btn 
           text 
           color="primary" 
           class="medical-term-btn"
           @click="showDopplerDialog = true"
         >
-          Doppler effect
+        Doppler effect
         </v-btn>
         to measure the movement of blood through vessels.
       </p>
@@ -37,7 +37,10 @@
         . These vessels are chosen as they are large enough to easily image, and provide useful information about downstream blood flow through the uterus and the placenta respectively.
       </p>
       <p class="text-lg leading-relaxed mb-6">
-        Sometimes if blood flow in the uterine or umbilical artery is abnormal Doppler ultrasound of some of the major blood vessels in the fetus may also be measured (usually the middle cerebral artery (MCA) which tells us about blood flow in the brain, or the ductus venosis (DV) which tells us about blood flow around the wider fetal circulation).
+        Sometimes if blood flow in the uterine or umbilical artery is abnormal Doppler ultrasound of some of the major blood vessels in the fetus may also be measured. These vessels include the middle cerebral artery (MCA), commonly performed after 32 weeks, to monitor blood flow to the baby's upper body. The CPR (Cerebroplacental Ratio) is reported to indicate the wellbeing of the fetus. This ratio is calculated by dividing the pulsatility index of the MCA with that of the umbilical artery.
+      </p>
+      <p class="text-lg leading-relaxed mb-6">
+        In some cases, the ductus venosis (DV) is also imaged early in the pregnancy (11-13 weeks) to monitor blood flow around the wider fetal circulation. For high-risk pregnancies, e.g. involving a small-for-gestational-age (SGA) fetus, DV doppler is also performed in the second and third trimesters to monitor potential complications. 
       </p>
       <p class="text-lg leading-relaxed mb-6">
         Doppler ultrasound produces a signal in the form of a wave across each heartbeat. Interpreting the shape of that wave provides information about fetal health. Each major vessel in the body produces a 'signature' shape, and your clinical team can use different measurements and features taken from the shape of these waveforms to understand if blood is flowing to the placenta and baby normally, or if it may be reduced.

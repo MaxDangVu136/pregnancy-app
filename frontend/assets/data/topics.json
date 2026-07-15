@@ -57,7 +57,7 @@
     "component": "none",
     "heading": "What does my ultrasound scan mean",
     "icon": "/img/landing/ultrasound.svg",
-    "content": "During pregnancy your baby will be checked on using ultrasound imaging.  This is a safe and widely used tool, that can help your midwife/doctor know that baby is healthy. This page helps you understand what ultrasound is and the different ways it is used and includes an interactive tool to help you understand your own ultrasound scan better. ",
+    "content": "During pregnancy, your baby will be checked on using ultrasound imaging. This is a safe and widely used tool, that can help your midwife/doctor know that baby is healthy. <br /><br />This page helps you understand what ultrasound is, and the different ways it is used. There is also an interactive tool to help you better understand your ultrasound scan.",
     "subTopics": {
       "what-is-ultrasound": {
         "id": "3.a",

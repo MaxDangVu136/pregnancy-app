@@ -3,18 +3,17 @@
     
     Ultrasound can show where the placenta is located in the uterus (i.e. if it is at the front (anterior), back (posterior), or fundal (top) positions) and its proximity to the opening of the cervix (the opening at the bottom of the uterus through which the baby will pass during birth). 
     <br />
-    <br />
     If the placenta has implanted in a way that blocks the cervix this is called  
     <v-btn
-          text
-          small
-          color="primary"
-          class="medical-term-btn"
-          @click="showPlacentaPreviaDialog = true"
-        >
-          placenta previa
-        </v-btn>, and it is important to know about this before delivery to prevent complications.
-      
+      text
+      small
+      color="primary"
+      class="medical-term-btn"
+      @click="showPlacentaPreviaDialog = true"
+    >
+      placenta previa
+    </v-btn>, and it is important to know about this before delivery to prevent complications.
+  
   
 
     <!-- Placenta Previa Dialog - Vuetify 2.x compatible -->
