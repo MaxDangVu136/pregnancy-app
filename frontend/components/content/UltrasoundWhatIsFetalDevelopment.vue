@@ -145,13 +145,23 @@ export default {
   text-transform: none !important;
   text-decoration: underline;
   min-width: auto !important;
-  padding: 0 4px !important;
+  padding: 0 !important;
   height: auto !important;
   font-weight: 600;
-  margin: 0 2px;
-  display: inline;
+  margin: 0;
+  display: inline-flex !important;
+  align-items: baseline;
   vertical-align: baseline;
   font-size: inherit !important;
+  line-height: inherit !important;
+  letter-spacing: normal !important;
+  border-radius: 0 !important;
+  white-space: normal;
+}
+
+.medical-term-btn .v-btn__content {
+  display: inline !important;
+  padding: 0 !important;
 }
 
 .medical-term-btn:hover {

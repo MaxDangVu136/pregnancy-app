@@ -9,7 +9,7 @@
       "title": "Gestational age and due date",
       "icon": "mdi-calendar-clock",
       "iconColor": "var(--v-primary-base)",
-      "content": "Ultrasound is often used at around 12 weeks to measure the size of the fetus and/or ‘gestational sac’ (the fluid filled structure within which the baby grows). If mum has specific medical conditions, this scan may be performed earlier in the pregnancy.<br /> <br />If you have pain and/or bleeding, you might need an early ultrasound to check the pregnancy is growing in the right place."
+      "content": "Ultrasound is often used at around 12 weeks to measure the size of the fetus and/or ‘gestational sac’ (the fluid filled structure within which the baby grows). If you have specific medical conditions, this scan may be performed earlier in the pregnancy.<br /> <br />If you have pain and/or bleeding, you might need an early ultrasound to check the pregnancy is growing in the right place."
     },
     {
       "id": "3.a.b",

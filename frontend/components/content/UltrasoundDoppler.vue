@@ -33,8 +33,8 @@
           @click="showUmbilicalDialog = true"
         >
           umbilical artery
-        </v-btn>
-        . These vessels are chosen as they are large enough to easily image, and provide useful information about downstream blood flow through the uterus and the placenta respectively.
+        </v-btn>. 
+        These vessels are chosen as they are large enough to easily image, and provide useful information about downstream blood flow through the uterus and the placenta respectively.
       </p>
       <p class="text-lg leading-relaxed mb-6">
         Sometimes if blood flow in the uterine or umbilical artery is abnormal Doppler ultrasound of some of the major blood vessels in the fetus may also be measured. These vessels include the middle cerebral artery (MCA), commonly performed after 32 weeks, to monitor blood flow to the baby's upper body. The CPR (Cerebroplacental Ratio) is reported to indicate the wellbeing of the fetus. This ratio is calculated by dividing the pulsatility index of the MCA with that of the umbilical artery.
@@ -161,15 +161,18 @@ export default {
   text-transform: none !important;
   text-decoration: underline;
   min-width: auto !important;
-  padding: 0 4px !important;
+  padding: 0 !important;
   height: auto !important;
   font-weight: 600;
-  margin: 0 2px;
-  display: inline !important;
+  margin: 0;
+  display: inline-flex !important;
+  align-items: baseline;
   vertical-align: baseline;
   font-size: inherit !important;
   line-height: inherit !important;
+  letter-spacing: normal !important;
   border-radius: 0 !important;
+  white-space: normal;
 }
 
 .medical-term-btn .v-btn__content {
