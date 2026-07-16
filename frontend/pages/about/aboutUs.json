@@ -28,12 +28,17 @@
             },
             
             {
-            "name": "Dr Thiranja Prasad Babarenda Gamage",
+                "name": "Dr Thiranja Prasad Babarenda Gamage",
                 "link": "https://www.auckland.ac.nz/en/abi/our-research/research-groups-themes/reproductive-systems/pregnancy-health/team/thiranja-prasad-babarenda-gamage.html"
             },
             {
                 "name": "Dr Charlotte Oyston",
                 "link": "https://www.auckland.ac.nz/en/abi/our-research/research-groups-themes/reproductive-systems/pregnancy-health/team/charlotte-oyston.html"
+            },
+            {
+                "name": "Dr Max Dang Vu",
+                "role": "Web Developer",
+                "link": "https://www.auckland.ac.nz/en/abi/our-research/research-groups-themes/reproductive-systems/pregnancy-health/team/max-dang-vu.html"
             },
             {
                 "name": "Zoea Chen",
