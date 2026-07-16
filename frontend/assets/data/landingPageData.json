@@ -21,7 +21,7 @@
     
     {
       "index": 3,
-      "title": "Navigating pregnancy complications",
+      "title": "How to navigate pregnancy complications?",
       "description": "What you need to know about why complications occur, how they are detected, and what this may mean for your pregnancy journey and beyond.",
       "image": "/img/landing/embryo_icon.svg",
       "backgroundColor": "#313657",
@@ -37,7 +37,7 @@
     },
     {
       "index": 0,
-      "title": "Support services",
+      "title": "Pregnancy / Baby Support Services",
       "description": "The pregnancy experience is different for everyone. Here you can find information on support services available for you and your whanau(family) to help navigate your journey, whatever it may look like.",
       "image": "/img/landing/heart.svg",
       "backgroundColor": "#470b4d",
@@ -45,7 +45,7 @@
     },
     {
       "index": 5,
-      "title": "About Us",
+      "title": "About Our Team",
       "description": "Learn more about the team behind this app, and how we are working to support you and your whanau(family).",
       "image": "/img/landing/about-us.svg",
       "backgroundColor": "#062405",
