@@ -29,7 +29,7 @@
     },
     {
       "index": 1,
-      "title": "Pregnancy care in Aotearoa NZ",
+      "title": "What does pregnancy care look like in Aotearoa NZ?",
       "description": "Information on care pathways you can choose in NZ for your pregnancy, how to find a midwife, and how care may change if there are any concerns about the pregnancy.",
       "image": "/img/landing/clinic.svg",
       "backgroundColor": "#24507F",
@@ -37,7 +37,7 @@
     },
     {
       "index": 0,
-      "title": "Pregnancy / Baby Support Services",
+      "title": "What pregnancy / baby support services are available?",
       "description": "The pregnancy experience is different for everyone. Here you can find information on support services available for you and your whanau(family) to help navigate your journey, whatever it may look like.",
       "image": "/img/landing/heart.svg",
       "backgroundColor": "#470b4d",
@@ -45,7 +45,7 @@
     },
     {
       "index": 5,
-      "title": "About Our Team",
+      "title": "Our Team",
       "description": "Learn more about the team behind this app, and how we are working to support you and your whanau(family).",
       "image": "/img/landing/about-us.svg",
       "backgroundColor": "#062405",
