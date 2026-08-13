@@ -9,7 +9,7 @@
       "title": "Fundal height measurement",
       "icon": "mdi-ruler",
       "iconColor": "var(--v-primary-base)",
-      "content": "The fundal height measurement is a common way that your midwife or doctor may measure how well your baby is growing. To do this they will use a tape measure to measure the distance between your pubic bone and the top of your 'bump' (the uterus or 'fundus').  Plotting this measurement on a chart lets them track the rate of your baby's growth.  If this measurement is higher or lower than expected you may be referred for follow up tests such as <a href='/ultrasound-what-is-ultrasound'>ultrasound</a> to take a closer look at baby. "
+      "content": "The fundal height measurement is a common way that your midwife or doctor may measure how well your baby is growing. To do this they will use a tape measure to measure the distance between your pubic bone and the top of your 'bump' (the uterus or 'fundus'). <br /> <br />Plotting this measurement on a chart lets them track the rate of your baby's growth.  If this measurement is higher or lower than expected you may be referred for follow up tests such as <a href='/ultrasound-what-is-ultrasound'>ultrasound</a> to take a closer look at baby. "
     },
     {
       "id": "1.f.b",
@@ -30,7 +30,7 @@
       "title": "Ultrasound",
       "icon": "mdi-wave",
       "iconColor": "var(--v-primary-base)",
-      "content": " <a href='/ultrasound-what-is-ultrasound'> Ultrasound </a> is a safe and important tool that uses sound waves to create images of your baby in the womb. It helps healthcare providers monitor your baby's development and detect any potential issues throughout pregnancy. <br />  In New Zealand all pregnant people can have publicly funded ultrasounds at two important times in pregnancy – the end of the first trimester (~12 weeks of gestation), and in the middle of pregnancy <a href='/ultrasound-what-is-ultrasound'> (~20 weeks of gestation) </a> .  You may also be referred for an ultrasound later in pregnancy to check baby’s health more closely if you are a person who is more likely to have a smaller baby or a complicated pregnancy (for example, if your last baby was small, or you have health conditions like diabetes or high blood pressure ),  or there is a need to check their growth or health. Other reasons to have a scan might be to check the baby’s position as birth nears, or to followup any changes seen at the anatomy scan. Our <a href='/ultrasound-what-ultrasound-means'>ultrasound tool</a> helps visualise and explain more about what is being measured by ultrasound in pregnancy, and what this can mean."
+      "content": " <a href='/ultrasound-what-is-ultrasound'> Ultrasound </a> is a safe and important tool that uses sound waves to create images of your baby in the womb. It helps healthcare providers monitor your baby's development and detect any potential issues throughout pregnancy. <br /> <br />In New Zealand, all pregnant people can have publicly funded ultrasounds at two important times in pregnancy – the end of the first trimester (~12 weeks of gestation), and in the middle of pregnancy <a href='/ultrasound-what-is-ultrasound'> (~20 weeks of gestation) </a> .  You may also be referred for an ultrasound later in pregnancy to check baby’s health more closely if you are a person who is more likely to have a smaller baby or a complicated pregnancy (for example, if your last baby was small, or you have health conditions like diabetes or high blood pressure ),  or there is a need to check their growth or health. <br /> <br />Other reasons to have a scan might be to check the baby’s position as birth nears, or to followup any changes seen at the anatomy scan. Our <a href='/ultrasound-what-ultrasound-means'>ultrasound tool</a> helps visualise and explain more about what is being measured by ultrasound in pregnancy, and what this can mean."
     },
     {
       "id": "1.f.e",
@@ -44,14 +44,14 @@
       "title": "Blood pressure",
       "icon": "mdi-ruler",
       "iconColor": "var(--v-primary-base)",
-      "content": "Something about gestational hypertension. UPDATE ICON. "
+      "content": "Checking blood pressure throughout your pregnancy is important for monitoring disorders such as gestational hypertension or preeclampsia. <br /> <br />Gestational hypertension is developed after 20 weeks of pregnancy. In this case, blood pressure readings are typically 140 mmHg / 90 mmHg, which is much higher than normal (120 mmHg / 80 mmHg). <br /> <br />If this persists, you may develop pre-eclampsia where blood vessels become narrower and blood flow through to vital organs (e.g. brain, kidneys, and liver) becomes more difficult. This presents major complications to mum's health and could affect the baby's growth."
     },
     {
       "id": "1.f.g",
       "title": "Urine dipstick",
       "icon": "mdi-ruler",
       "iconColor": "var(--v-primary-base)",
-      "content": "Something about preeclampsia. UPDATE ICON. "
+      "content": "Regular urine checks with a dipstick can help detect early signs of pre-eclampsia. This is a fast screening tool to test for the presence of protein in urine, which may be an indication of declining kidney health.<br /> <br />Generally, kidneys filter out proteins and prevent them leaking into urine. If protein is present in the screening, you may be asked to collect your urine in a jug over 12-24 hours to determine how much protein is lost. If further testing shows more than 300 mg of protein in urine per day, that may indicate preeclampsia."
     }
   ]
 }
