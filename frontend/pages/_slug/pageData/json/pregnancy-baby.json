@@ -42,14 +42,14 @@
     {
       "id": "1.f.f",
       "title": "Blood pressure",
-      "icon": "mdi-ruler",
+      "icon": "mdi-gauge",
       "iconColor": "var(--v-primary-base)",
       "content": "Checking blood pressure throughout your pregnancy is important for monitoring disorders such as gestational hypertension or pre-eclampsia. <br /> <br />Gestational hypertension is developed after 20 weeks of pregnancy. In this case, blood pressure readings are typically 140 mmHg / 90 mmHg, which is much higher than normal (120 mmHg / 80 mmHg). <br /> <br />If this persists, you may develop <a href='/complications-pe'> pre-eclampsia </a> where blood vessels become narrower and blood flow through to vital organs (e.g. brain, kidneys, and liver) becomes more difficult. This presents major complications to mum's health and could affect the baby's growth."
     },
     {
       "id": "1.f.g",
       "title": "Urine dipstick",
-      "icon": "mdi-ruler",
+      "icon": "mdi-test-tube",
       "iconColor": "var(--v-primary-base)",
       "content": "Regular urine checks with a dipstick can help detect early signs of pre-eclampsia. This is a fast screening tool to test for the presence of protein in urine, which may be an indication of declining kidney health.<br /> <br />Generally, kidneys filter out proteins and prevent them leaking into urine. If protein is present in the screening, you may be asked to collect your urine in a jug over 12-24 hours to determine how much protein is lost. If further testing shows more than 300 mg of protein in urine per day, that may indicate pre-eclampsia."
     }
