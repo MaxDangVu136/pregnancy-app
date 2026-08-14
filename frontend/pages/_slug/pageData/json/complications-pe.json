@@ -9,7 +9,7 @@
       "title": "Pre-eclampsia",
       "icon": "mdi-heart-plus",
       "iconColor": "var(--v-primary-base)",
-      "content": "Pre-eclampsia is a pregnancy complication that can affect both mother and baby. It is a serious condition that can lead to serious health problems for both mother and baby if not treated early. It is a condition that is often detected through regular checkups during pregnancy. It is a condition that is often detected through regular checkups during pregnancy."
+      "content": "Pre-eclampsia is a pregnancy complication that can seriously affect mum's health and the baby's growth, if not treated early.<br /> <br />This condition develops due to high blood pressure, where blood vessels narrow and the blood flow through to vital organs (e.g. brain, kidneys, and liver) becomes more difficult. Pre-eclampsia can be detected through regular checkups during pregnancy."
     }
   ],
   "addtionalResources": [
@@ -18,7 +18,7 @@
       "description": "Information on Pre-eclampsia",
       "icon": "mdi-web",
       "iconColor": "var(--v-primary-base)",
-      "link": "https://www.mayoclinic.org/diseases-conditions/preeclampsia/symptoms-causes/syc-20355745"
+      "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/having-a-healthy-pregnancy/pre-eclampsia"
     }
 
   ]
