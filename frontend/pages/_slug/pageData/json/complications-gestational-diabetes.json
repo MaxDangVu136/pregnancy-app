@@ -1,16 +1,25 @@
 {
+  "title": "Gestational Diabetes",
+  "id": "2.c",
+  "description": "",
+  "showModel": false,
+  "contentSections": [
+    {
+      "id": "2.b.a",
+      "title": "Gestational Diabetes",
+      "icon": "mdi-heart-plus",
+      "iconColor": "var(--v-primary-base)",
+      "content": "Gestational Diabetes develops as a result of increasing glucose levels in the mother's blood after about 24 weeks of pregnancy. This is fairly common and may only be temporary.<br/><br/>This is due to two factors. Firstly, the human body needs four times more insulin than normal to supply energy to both mum and baby. Secondly, hormones in the placenta block the body's insulin, which raises the glucose levels.<br/><br/>Gestational Diabetes is diagnosed through routine blood screening. One example is an Hb1Ac test before week 20 to check for undiagnosed diabetes or any risk of developing it later. If your result is at least 42 mmol/mol, you will be referred to a diabetes in pregnancy service.<br/><br/>Potential complications include birthing difficulties related to the baby over growing in size, and the baby experiencing increased health risks related to low calcium and glucose levels after birth. The mother is also more likely to develop Type 2 Diabetes later in life.<br/><br/>In saying that, this is a common disorder that is manageable with informed and guided changes in diet and exercise during pregnancy."
+    }
+  ],
+  "addtionalResources": [
+  {
     "title": "Gestational Diabetes",
-    "id": "2.c",
-    "description": "",
-    "showModel": false,
-    "contentSections": [
-      {
-        "id": "2.b.a",
-        "title": "Gestational Diabetes",
-        "icon": "mdi-heart-plus",
-        "iconColor": "var(--v-primary-base)",
-        "content": "Gestational Diabetes is a pregnancy complication that can affect both mother and baby. It is a serious condition that can lead to serious health problems for both mother and baby if not treated early. It is a condition that is often detected through regular checkups during pregnancy. It is a condition that is often detected through regular checkups during pregnancy."
-      }
-    ]
+    "description": "Information on Gestational Diabetes",
+    "icon": "mdi-web",
+    "iconColor": "var(--v-primary-base)",
+    "link": "https://www.diabetes.org.nz/gestational-diabetes"
   }
+  ]
+}
   
