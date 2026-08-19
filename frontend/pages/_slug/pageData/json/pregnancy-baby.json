@@ -44,7 +44,7 @@
       "title": "Blood pressure",
       "icon": "mdi-gauge",
       "iconColor": "var(--v-primary-base)",
-      "content": "Checking blood pressure throughout your pregnancy is important for monitoring disorders such as gestational hypertension or pre-eclampsia. <br /> <br />Gestational hypertension is developed after 20 weeks of pregnancy. In this case, blood pressure readings are typically 140 mmHg / 90 mmHg, which is much higher than normal (120 mmHg / 80 mmHg). <br /> <br />If this persists, you may develop <a href='/complications-pe'> pre-eclampsia </a>, which presents major complications to the health of mum and baby."
+      "content": "Checking blood pressure throughout your pregnancy is important for monitoring disorders such as gestational hypertension or pre-eclampsia. <br /> <br />Gestational hypertension is developed after 20 weeks of pregnancy. In this case, blood pressure readings are typically 140 mmHg / 90 mmHg, which is much higher than normal (120 mmHg / 80 mmHg). <br /> <br />If this persists, you may develop <a href='/complications-pe'>pre-eclampsia</a>, which presents major complications to the health of mum and baby."
     },
     {
       "id": "1.f.g",
