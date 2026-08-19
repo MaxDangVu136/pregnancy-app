@@ -1,9 +1,0 @@
-{
-  "name": "virtual-pregnancy-app",
-  "short_name": "virtual-pregnancy-app",
-  "icons": [],
-  "start_url": "/pregnancy-app/?standalone=true",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "lang": "en"
-}
