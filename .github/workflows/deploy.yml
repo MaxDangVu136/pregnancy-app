@@ -1,10 +1,14 @@
 name: Deploy App via Github action
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      main
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,6 +16,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'yarn'
+          cache-dependency-path: frontend/yarn.lock
+          
       - run: cd frontend && yarn install && yarn generate:gh-pages
       - run: ls
 
