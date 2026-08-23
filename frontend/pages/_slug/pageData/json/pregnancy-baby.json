@@ -16,7 +16,16 @@
       "title": "Fetal heart rate",
       "icon": "mdi-heart-pulse",
       "iconColor": "var(--v-primary-base)",
-      "content": "Monitoring your baby's heart rate during pregnancy helps your midwife/doctor assess your baby's well-being. A normal fetal heart rate typically ranges from 110 to 160 beats per minute – so don't be concerned that their heart is beating faster than yours most of the time! Changes in this heart rate can signal how your baby is coping inside the womb and whether they're getting enough oxygen."
+      "content": "Monitoring your baby's heart rate during pregnancy helps your midwife/doctor assess your baby's well-being. A normal fetal heart rate typically ranges from 110 to 160 beats per minute – so don't be concerned that their heart is beating faster than yours most of the time! Changes in this heart rate can signal how your baby is coping inside the womb and whether they're getting enough oxygen.",
+      "additionalResources": [
+        {
+          "title": "Health New Zealand / Te Whatu Ora — Fetal heart rate monitoring",
+          "description": "Here is how your baby's heartbeat is monitored.",
+          "icon": "mdi-web",
+          "iconColor": "var(--v-accent-base)",
+          "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/monitoring-your-pepis-heartbeat-during-labour-fetal-monitoring"
+        }
+      ]
     },
     {
       "id": "1.f.c",
