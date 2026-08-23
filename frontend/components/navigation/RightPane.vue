@@ -69,7 +69,7 @@
           </div>
         </div>
         <div class="text-center mb-5 text-sm">
-          Read more on <a href="/ultrasound-doppler">Doppler ultrasound</a>
+          Read more on <NuxtLink to="/ultrasound-doppler">Doppler Ultrasound</NuxtLink>
         </div>
       </div>
 
