@@ -16,10 +16,10 @@
       "title": "Fetal heart rate",
       "icon": "mdi-heart-pulse",
       "iconColor": "var(--v-primary-base)",
-      "content": "Monitoring your baby's heart rate during pregnancy helps your midwife/doctor assess your baby's well-being. A normal fetal heart rate typically ranges from 110 to 160 beats per minute – so don't be concerned that their heart is beating faster than yours most of the time! Changes in this heart rate can signal how your baby is coping inside the womb and whether they're getting enough oxygen.",
+      "content": "Monitoring your baby's heart rate during pregnancy helps your midwife/doctor assess your baby's well-being. <br/><br>A normal fetal heart rate typically ranges from 110 to 160 beats per minute – so don't be concerned that their heart is beating faster than yours most of the time! <br/><br/>Changes in this heart rate can signal how your baby is coping inside the womb and whether they're getting enough oxygen.",
       "additionalResources": [
         {
-          "title": "Health New Zealand / Te Whatu Ora — Fetal heart rate monitoring",
+          "title": "Health New Zealand Te Whatu Ora — Fetal heart rate monitoring",
           "description": "Here is how your baby's heartbeat is monitored.",
           "icon": "mdi-web",
           "iconColor": "var(--v-accent-base)",
@@ -32,7 +32,16 @@
       "title": "Clinician/Midwife checks",
       "icon": "mdi-hospital",
       "iconColor": "var(--v-primary-base)",
-      "content": "Clinician/midwife checks are a common way that your midwife or doctor may check on your baby's health. They will check your baby's heart rate, fundal height, and other things to make sure your baby is growing as expected. "
+      "content": "Clinician/midwife checks are a common way that your midwife or doctor may check on your baby's health. They will check your baby's heart rate, fundal height, and other things to make sure your baby is growing as expected.",
+      "additionalResources": [
+        {
+          "title": "Plunket New Zealand - Tests and appointments",
+          "description": "Check out the different types of tests and appointments throughout your pregnancy to monitor your baby's health.",
+          "icon": "mdi-web",
+          "iconColor": "var(--v-accent-base)",
+          "link": "https://www.plunket.org.nz/being-a-parent/preparing-for-your-baby/health-and-care-during-pregnancy/tests-and-appointments/"
+        }
+      ]
     },
     {
       "id": "1.f.d",
@@ -53,14 +62,41 @@
       "title": "Blood pressure",
       "icon": "mdi-gauge",
       "iconColor": "var(--v-primary-base)",
-      "content": "Checking blood pressure throughout your pregnancy is important for monitoring disorders such as gestational hypertension or pre-eclampsia. <br /> <br />Gestational hypertension is developed after 20 weeks of pregnancy. In this case, blood pressure readings are typically 140 mmHg / 90 mmHg, which is much higher than normal (120 mmHg / 80 mmHg). <br /> <br />If this persists, you may develop <a href='/complications-pe'>pre-eclampsia</a>, which presents major complications to the health of mum and baby."
+      "content": "Checking blood pressure throughout your pregnancy is important for monitoring disorders such as gestational hypertension or pre-eclampsia. <br /> <br />Gestational hypertension is developed after 20 weeks of pregnancy. In this case, blood pressure readings are typically 140 mmHg / 90 mmHg, which is much higher than normal (120 mmHg / 80 mmHg). <br /> <br />If this persists, you may develop <a href='/complications-pe'>pre-eclampsia</a>, which presents major complications to the health of mum and baby.",
+      "additionalResources": [
+        {
+          "title": "Healthify New Zealand - High blood pressure in pregnancy",
+          "description": "Find out more about hypertension in pregnancy.",
+          "icon": "mdi-web",
+          "iconColor": "var(--v-accent-base)",
+          "link": "https://healthify.nz/health-a-z/h/high-blood-pressure-in-pregnancy"
+        }
+      ]
     },
     {
       "id": "1.f.g",
       "title": "Urine dipstick",
       "icon": "mdi-test-tube",
       "iconColor": "var(--v-primary-base)",
-      "content": "Regular urine checks with a dipstick can help detect early signs of pre-eclampsia. This is a fast screening tool to test for the presence of protein in urine, which may be an indication of declining kidney health.<br /> <br />Generally, kidneys filter out proteins and prevent them leaking into urine. If protein is present in the screening, you may be asked to collect your urine in a jug over 12-24 hours to determine how much protein is lost. If further testing shows more than 300 mg of protein in urine per day, that may indicate pre-eclampsia."
+      "content": "Regular urine checks with a dipstick can help detect early signs of pre-eclampsia. This is a fast screening tool to test for the presence of protein in urine, which may be an indication of declining kidney health.<br /> <br />Generally, kidneys filter out proteins and prevent them leaking into urine. If protein is present in the screening, you may be asked to collect your urine in a jug over 12-24 hours to determine how much protein is lost. If further testing shows more than 300 mg of protein in urine per day, that may indicate pre-eclampsia.",
+      "additionalResources": [
+        {
+          "title": "Healthify New Zealand - Pregnancy screening tests",
+          "description": "Check out urine screening here.",
+          "icon": "mdi-web",
+          "iconColor": "var(--v-accent-base)",
+          "link": "https://healthify.nz/health-a-z/p/pregnancy-screening-tests-and-checks"
+        }
+      ]
+    }
+  ],
+  "addtionalResources": [
+    {
+      "title": "Health New Zealand Te Whatu Ora — National maternity clinical guidelines",
+      "description": "Official guidance on the national maternity clinical guidance for health professionals.",
+      "icon": "mdi-web",
+      "iconColor": "var(--v-accent-base)",
+      "link": "https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/maternity/national-maternity-clinical-guidelines"
     }
   ]
 }
