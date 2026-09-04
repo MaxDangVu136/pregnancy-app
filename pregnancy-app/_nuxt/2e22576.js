@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{375:function(n){n.exports=JSON.parse('{"title":"Interact with your placenta","id":"1.c","description":"The placenta forms temporarily during pregnancy to help mum and baby exchange nutrients and oxygen. Play around with your placenta to understand how it can help you have a healthy pregnancy.","showModel":true}')}}]);
