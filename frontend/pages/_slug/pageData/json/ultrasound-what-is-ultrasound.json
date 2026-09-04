@@ -37,7 +37,7 @@
       "title": "Blood flow to the placenta",
       "icon": "mdi-water-plus",
       "iconColor": "var(--v-primary-base)",
-      "content": "Sometimes you might notice that the colour on the ultrasound screen goes blue and red. This is a doppler measurement. <br /> <br />Doppler is used to help work out if extra monitoring is needed for your pregnancy. Doppler ultrasound helps assess how maternal blood flows through the uterus to the placenta, and how blood flows between the fetus and the placenta. <br /> <br />See more at <a href='/ultrasound-doppler'>Doppler Ultrasound in Pregnancy</a>. "
+      "content": "Sometimes you might notice that the colour on the ultrasound screen goes blue and red. This is a doppler measurement. <br /> <br />Doppler is used to help work out if extra monitoring is needed for your pregnancy. Doppler ultrasound helps assess how maternal blood flows through the uterus to the placenta, and how blood flows between the fetus and the placenta. <br /> <br />See more at <a href='/ultrasound-doppler'><strong><u>Doppler Ultrasound in Pregnancy</u></strong></a>. "
     }
   ]
 }
