@@ -75,6 +75,21 @@ export default {
       default: false
     }
   },
+
+  computed: {
+    contentHtml() {
+      const basePath = this.$config.basePath || '';
+
+      if (!basePath || !this.section.content) {
+        return this.section.content;
+      }
+
+      return this.section.content.replace(
+        /(["'])\/img\//g,
+        `$1${basePath}/img/`
+      );
+    }
+  },
   
   methods: {
     toggleSection() {
