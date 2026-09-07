@@ -9,7 +9,7 @@
         "title": "Different types of ways babies can be born at a high level e",
         "icon": "mdi-heart-plus",
         "iconColor": "var(--v-primary-base)",
-        "content": "spontaneous, induced labour, c-section. Something about shared decision making so they don’t feel freaked out (sublinks through to more detailed information/layers?)."
+        "content": "<ul><li>Spontaneous, induced labour.</li><li>C-Section.</li><li>Something about shared decision making so they don’t feel freaked out (sublinks through to more detailed information/layers?).</li></ul>"
       }
     ]
   }
