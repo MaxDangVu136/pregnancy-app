@@ -14,7 +14,7 @@
     {
       "id": "2.b.b",
       "title": "What causes pre-eclampsia?",
-      "icon": "mdi-heart-plus",
+      "icon": "mdi-alert-circle",
       "iconColor": "var(--v-primary-base)",
       "content": "Pre-eclampsia develops due to high blood pressure, where blood vessels narrow and limits the blood flow through to vital organs (e.g. brain, kidneys, and liver). <br /> <br />This can lead to the swelling of mum's hands, feet, and face, as well as dizziness, headaches and an increased risk of stroke and cardiovascular diseases later in life. The reduced blood flow may slow down the growth of the baby, and increases the risk of premature birth (<37 weeks) or stillbirth."
     },
