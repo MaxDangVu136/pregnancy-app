@@ -254,25 +254,8 @@ export default {
           ]
         },
         {
-          title: 'Staying Connected',
-          color: 'var(--v-accent-base)',
-          content: [
-            'We found ways to stay connected even when we couldn\'t be there 24/7. We recorded our voices reading stories, and the nurses played them for our pēpi.',
-            'Taking photos and keeping a journal helped us track progress and celebrate small milestones. Every gram gained, every day breathing on their own - these were huge victories.'
-          ]
-        },
-        {
           title: 'Practical Tips',
           color: 'var(--v-info-base)',
-          content: [
-            'Bring comfortable clothes and snacks - you\'ll be spending a lot of time there. A small notebook helped us remember questions for doctors.',
-            'Accept help from whānau and friends. Let them bring meals, do laundry, or just sit with you. You don\'t have to do this alone.',
-            'The NICU nurses became our teachers. Don\'t hesitate to ask questions - they want you to feel confident caring for your pēpi.'
-          ]
-        },
-        {
-          title: 'Practical Tips',
-          color: 'var(--v-primary-base)',
           content: [
             'Bring comfortable clothes and snacks - you\'ll be spending a lot of time there. A small notebook helped us remember questions for doctors.',
             'Accept help from whānau and friends. Let them bring meals, do laundry, or just sit with you. You don\'t have to do this alone.',
