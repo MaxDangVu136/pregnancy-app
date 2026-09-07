@@ -16,7 +16,7 @@
       "title": "What causes Gestational Diabetes?",
       "icon": "mdi-heart-plus",
       "iconColor": "var(--v-primary-base)",
-      "content": "Gestational Diabetes develops as a result of increasing glucose levels in the mother's blood after about 24 weeks of pregnancy. <br/><br/>This is due to two factors. Firstly, the human body needs four times more insulin than normal to supply energy to both mum and baby. Secondly, hormones in the placenta block the body's insulin, which raises the glucose levels."
+      "content": "Gestational Diabetes develops as a result of increasing glucose levels in the mother's blood after about 24 weeks of pregnancy. <br/><br/>This is due to two factors. Firstly, the human body needs four times more insulin than normal to supply energy to both mum and baby. Secondly, hormones in the placenta (e.g. <i>cortisol</i> and <i>human placental lactogen</i>) block the body's insulin, which raises the glucose levels."
     },
     {
       "id": "2.c.c",
