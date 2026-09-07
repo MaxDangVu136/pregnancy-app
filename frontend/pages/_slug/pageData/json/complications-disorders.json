@@ -1,15 +1,48 @@
 {
-    "title": "Disorders",
+    "title": "What does a pregnancy disorder mean for the birth of my baby?",
     "id": "2.d",
     "description": " ",
     "showModel": false,
     "contentSections": [
       {
         "id": "2.d.a",
-        "title": "Different types of ways babies can be born at a high level e",
+        "title": "Different ways of giving birth",
         "icon": "mdi-heart-plus",
         "iconColor": "var(--v-primary-base)",
-        "content": "<ul><li>Spontaneous, induced labour.</li><li>C-Section.</li><li>Something about shared decision making so they don’t feel freaked out (sublinks through to more detailed information/layers?).</li></ul>"
+        "content": "There are several different ways of delivering your baby. The appropriate approach depends on your personal preferences, your health status and the medical necessities for your pregnancy. <br/><br/><ul><li><strong>Spontaneous:</strong> Labour and muscle contractions begin naturally to open the cervix, and the baby is delivered through the vagina without medical intervention or surgical tools. </li><li><strong>Induced labour:</strong> Labour and muscle contractions begin artificially rather than naturally. The decision is made if your baby is overdue (e.g. 41 weeks), your waters are broken before labour starts, or that mum or baby has a health problem, e.g. Gestational Diabetes or Pre-eclampsia.</li><li><strong>C-Section:</strong> This is an operation where a cut is made through your abdomen and womb to deliver the baby. Mum is advised to take this option if vaginal birth is not possible or safe. There are many reasons for this, including:<ul><li>The placenta is blocking the baby's path through the cervix; </li><li>Mum has had a previous C-section or a major surgery to the uterus; </li><li>The baby is premature or not developing well; </li><li>Both mum and baby has serious medical condition.</li></ul> <br/><br/>Please be assured that choosing the delivery method is a shared decision making process between mum and trained healthcare providers (e.g. midwife, leading maternity carer (LMC), obstetrician). They will be present at your labour to support you along the way. You are also encouraged to receive input and support from your partner or whānau when giving birth."
+      },
+      {
+        "id": "2.d.b",
+        "title": "Patient stories/experiences/journeys",
+        "icon": "mdi-account-group",
+        "iconColor": "var(--v-primary-base)",
+        "content":"<strong>PLACEHOLDER</strong>. See <i>Extra Care</i> for inspiration, implement once we have stories."
+      }
+    ],
+    "addtionalResources": [
+      {
+        "title": "What happens in labour?",
+        "id": "2.d.c",
+        "description": "Exhaustive list of information about going into labour, and the different stages of labour.",
+        "icon": "mdi-web",
+        "iconColor": "var(--v-primary-base)",
+        "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/going-into-labour"
+      },
+      {
+        "title": "Choosing where to give birth",
+        "id": "2.d.d",
+        "description": "Information about where to give birth, and who is involved to support you.",
+        "icon": "mdi-web",
+        "iconColor": "var(--v-primary-base)",
+        "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/where-to-give-birth"
+      },
+      {
+        "title": "Who to have with you during the birth",
+        "id": "2.d.e",
+        "description": "Who can help you before and during your birth.",
+        "icon": "mdi-web",
+        "iconColor": "var(--v-primary-base)",
+        "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/who-to-have-with-you-during-the-birth"
       }
     ]
   }
