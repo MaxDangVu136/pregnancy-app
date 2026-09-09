@@ -10,6 +10,8 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      DEPLOY_ENV: GH_PAGES
 
     steps:
       - uses: actions/checkout@v3
