@@ -31,7 +31,7 @@
           class="space-y-6"
         />
         <!-- Fallback to HTML content -->
-        <div v-else class="space-y-6" v-html="section.content">
+        <div v-else class="space-y-6" v-html="contentHtml">
         </div>
       </v-card-text>
 
@@ -73,6 +73,21 @@ export default {
     isExpanded: {
       type: Boolean,
       default: false
+    }
+  },
+
+  computed: {
+    contentHtml() {
+      const basePath = this.$config.basePath || '';
+
+      if (!basePath || !this.section.content) {
+        return this.section.content;
+      }
+
+      return this.section.content.replace(
+        /(["'])\/img\//g,
+        `$1${basePath}/img/`
+      );
     }
   },
  
