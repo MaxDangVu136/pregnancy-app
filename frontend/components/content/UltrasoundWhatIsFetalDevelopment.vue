@@ -39,8 +39,8 @@
               class="medical-term-btn"
               @click="showNuchalDialog = true"
             >
-              nuchal translucency.
-            </v-btn>
+              nuchal translucency
+            </v-btn>. 
           </li>
         </ul>
       </v-card-text>
@@ -71,6 +71,17 @@
           </li>
           <li>Where the placenta is growing.</li>
         </ul>
+      <figure class="figure-group"; style='text-align: center;'>
+        <figure class="subfigure">
+          <img src='/img/ultrasound/fetal-development_us/limbs/Week20_71_feet.jpg' alt='20-week ultrasound scan showing the heart beating.' style='width: 50%; max-width: 700px; margin: 20px auto; display: block;' />
+          <figcaption>Feet of baby</figcaption>
+        </figure>
+        <figure class="subfigure">
+          <img src='/img/ultrasound/fetal-development_us/organs/Week20_57_4_chamber_heart.gif' alt='20-week ultrasound scan showing the heart beating.' style='width: 50%; max-width: 700px; margin: 20px auto; display: block;' /> 
+          <figcaption>Beating heart of baby</figcaption>
+        </figure>
+        <figcaption><small>Examples of a 20 week ultrasound scan of the baby, with key body parts labelled in <strong>red</strong>. &copy; 2025 James Lab & Pregnancy Modelling Group. All rights reserved.</small></figcaption>
+      </figure>
       </v-card-text>
     </v-card>
 
@@ -112,7 +123,7 @@
         <v-card-text class="pt-4">
           This is a measurement of the thickness of fluid at the back of the
           baby’s neck that is used in combination with a blood test to screen
-          for chromosomal conditions like Down syndrome, trisomy 13, and trisomy
+          for chromosomal conditions like Down Syndrome, Trisomy 13, and Trisomy
           18.
         </v-card-text>
 
@@ -184,4 +195,29 @@ export default {
   line-height: 1.6;
   margin-bottom: 0;
 }
+
+.figure-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.subfigure {
+  flex: 1 1 300px;
+  margin: 0;
+}
+
+.subfigure img {
+  width: 100% !important;
+  max-width: 700px;
+  margin: 20px auto;
+  display: block;
+}
+
+.figure-group > figcaption {
+  flex-basis: 100%;
+}
+
 </style>
