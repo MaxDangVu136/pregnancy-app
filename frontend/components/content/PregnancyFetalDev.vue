@@ -2,7 +2,7 @@
   <div class="fetal-development-timeline">
     <div class="image-crop">
       <img
-        src='/img/pregnancy-journey/fetal-development/trimesters.png' 
+        :src="getImagePath('/img/pregnancy-journey/fetal-development/trimesters.png')"
         alt='Fetal Development'
         class="image"
       />
@@ -35,7 +35,7 @@
                 :key="image.src"
                 class="subfigure"
               >
-                <img :src="image.src" :alt="image.alt" />
+                <img :src="getImagePath(image.src)" :alt="image.alt" />
                 <div class="subfigure-caption">
                   ({{ String.fromCharCode(97 + index) }}) {{ image.caption }}
                 </div>
@@ -44,7 +44,7 @@
             <figcaption class="figure-caption" v-html="item.figureCaption"></figcaption>
           </figure>
           <figure v-else-if="item.imageSrc" class="image-figure single-image">
-            <img :src="item.imageSrc" :alt="item.imageAlt" />
+            <img :src="getImagePath(item.imageSrc)" :alt="item.imageAlt" />
             <figcaption>{{ item.imageCaption }}</figcaption>
           </figure>
         </v-card>
@@ -107,6 +107,18 @@ export default {
           figureCaption: '<small>&copy; 2025 James Lab & Pregnancy Modelling Group. All rights reserved.</small>'
         }
       ]
+    }
+  },
+
+  methods: {
+    getImagePath(imagePath) {
+      const basePath = this.$config.basePath || (
+        process.env.DEPLOY_ENV === 'GH_PAGES' ? '/pregnancy-app' : ''
+      );
+
+      return imagePath && imagePath.startsWith('/')
+        ? `${basePath}${imagePath}`
+        : imagePath;
     }
   }
 }
