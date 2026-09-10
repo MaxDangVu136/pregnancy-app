@@ -38,7 +38,7 @@
         <!-- Normal Doppler -->
         <!-- <img src="https://www.researchgate.net/profile/Kilian-Pohl/publication/221363274/figure/fig1/AS:305378391805956@1449819290476/llustration-of-shape-patterns-conveyed-by-Doppler-images-for-various-cardiac.png" alt="Normal Doppler" /> -->
         <figure style="text-align: center;">
-          <img src='/img/ultrasound/doppler/Week20_95_umbilical_doppler.jpg' alt='Example Doppler Ultrasound through the umbilical artery.' style='width: 100%; max-width: 700px; margin: 20px auto; display: block;' />
+          <img :src="getImagePath('/img/ultrasound/doppler/Week20_95_umbilical_doppler.jpg')" alt='Example Doppler Ultrasound through the umbilical artery.' style='width: 100%; max-width: 700px; margin: 20px auto; display: block;' />
           <figcaption>
             <small>Example of a Doppler ultrasound image. &copy; 2025 James Lab & Pregnancy Modelling Group. All rights reserved.</small>
           </figcaption>
@@ -152,6 +152,15 @@ export default {
   },
 
  
+  methods: {
+    getImagePath(imagePath) {
+      const basePath = this.$config.basePath || (
+        process.env.DEPLOY_ENV === 'GH_PAGES' ? '/pregnancy-app' : ''
+      );
+
+      return `${basePath}${imagePath}`;
+    }
+  },
 };
 </script>
   
