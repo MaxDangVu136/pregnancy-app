@@ -78,7 +78,9 @@ export default {
 
   computed: {
     contentHtml() {
-      const basePath = this.$config.basePath || '';
+      const basePath = this.$config.basePath || (
+        process.env.DEPLOY_ENV === 'GH_PAGES' ? '/pregnancy-app' : ''
+      );
 
       if (!basePath || !this.section.content) {
         return this.section.content;
