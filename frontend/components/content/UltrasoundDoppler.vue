@@ -33,8 +33,16 @@
           @click="showUmbilicalDialog = true"
         >
           umbilical artery
-        </v-btn>. 
-        These vessels are chosen as they are large enough to easily image, and provide useful information about downstream blood flow through the uterus and the placenta respectively.
+        </v-btn> (see example below). 
+        These vessels are chosen as they are large enough to easily image, and provide useful information about downstream blood flow through the uterus and the placenta respectively. Places that appear red or blue on the image indicates blood flow towards and the ultrasound probe, and away from it respectively. Dark shades on the image show slow blood flow, and light shades show faster blood flow, as shown below.
+        <!-- Normal Doppler -->
+        <!-- <img src="https://www.researchgate.net/profile/Kilian-Pohl/publication/221363274/figure/fig1/AS:305378391805956@1449819290476/llustration-of-shape-patterns-conveyed-by-Doppler-images-for-various-cardiac.png" alt="Normal Doppler" /> -->
+        <figure style="text-align: center;">
+          <img src='/img/ultrasound/doppler/Week20_95_umbilical_doppler.jpg' alt='Example Doppler Ultrasound through the umbilical artery.' style='width: 100%; max-width: 700px; margin: 20px auto; display: block;' />
+          <figcaption>
+            <small>Example of a Doppler ultrasound image. &copy; 2025 James Lab & Pregnancy Modelling Group. All rights reserved.</small>
+          </figcaption>
+        </figure>
       </p>
       <p class="text-lg leading-relaxed mb-6">
         Sometimes if blood flow in the uterine or umbilical artery is abnormal Doppler ultrasound of some of the major blood vessels in the fetus may also be measured. These vessels include the middle cerebral artery (MCA), commonly performed after 32 weeks, to monitor blood flow to the baby's upper body. The CPR (Cerebroplacental Ratio) is reported to indicate the wellbeing of the fetus. This ratio is calculated by dividing the pulsatility index of the MCA with that of the umbilical artery.
@@ -46,12 +54,6 @@
         Doppler ultrasound produces a signal in the form of a wave across each heartbeat. Interpreting the shape of that wave provides information about fetal health. Each major vessel in the body produces a 'signature' shape, and your clinical team can use different measurements and features taken from the shape of these waveforms to understand if blood is flowing to the placenta and baby normally, or if it may be reduced.
       </p>
       <!-- TODO: MCA is common after 32 weeks - would be ideal to have a simple clear explanation of this as mention of the brain  creates anxiety  ++Also, we only report the CPR (ration between MCA PI and umA PI)_-->
-
-      <!-- Normal Doppler -->
-     <img src="https://www.researchgate.net/profile/Kilian-Pohl/publication/221363274/figure/fig1/AS:305378391805956@1449819290476/llustration-of-shape-patterns-conveyed-by-Doppler-images-for-various-cardiac.png" alt="Normal Doppler" />
-
-
-    
 
     <!-- Dialogs -->
 
@@ -122,8 +124,6 @@ export default {
       showDopplerDialog: false,
       showUterineDialog: false,
       showUmbilicalDialog: false,
-
-    
 
       // Waveform parameters
       waveformPoints: [],
