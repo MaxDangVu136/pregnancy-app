@@ -38,7 +38,7 @@
     {
       "index": 0,
       "title": "What pregnancy / baby support services are available?",
-      "description": "The pregnancy experience is different for everyone. Here you can find information on support services available for you and your whanau(family) to help navigate your journey, whatever it may look like.",
+      "description": "The pregnancy experience is different for everyone. Here you can find information on support services available for you and your whānau (family) to help navigate your journey, whatever it may look like.",
       "image": "/img/landing/heart.svg",
       "backgroundColor": "#470b4d",
       "link": "/support-services"
@@ -46,7 +46,7 @@
     {
       "index": 5,
       "title": "Our Team",
-      "description": "Learn more about the team behind this app, and how we are working to support you and your whanau(family).",
+      "description": "Learn more about the team behind this app, and how we are working to support you and your whānau (family).",
       "image": "/img/landing/about-us.svg",
       "backgroundColor": "#062405",
       "link": "/about"
