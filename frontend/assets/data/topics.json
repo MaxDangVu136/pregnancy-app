@@ -57,7 +57,7 @@
     "component": "none",
     "heading": "What does my ultrasound scan mean?",
     "icon": "/img/landing/ultrasound.svg",
-    "content": "During pregnancy, your baby will be checked on using ultrasound imaging. This is a safe and widely used tool, that can help your midwife/doctor know that baby is healthy. <br /><br />This page helps you understand what ultrasound is, and the different ways it is used. There is also an interactive tool to help you better understand your ultrasound scan.",
+    "content": "During pregnancy, your pēpi (baby) will be checked on using ultrasound imaging. This is a safe and widely used tool, that can help your midwife/doctor know that pēpi is healthy. <br /><br />This page helps you understand what ultrasound is, and the different ways it is used. There is also an interactive tool to help you better understand your ultrasound scan.",
     "subTopics": {
       "what-is-ultrasound": {
         "id": "3.a",
@@ -120,14 +120,14 @@
       },
       "disorders":{
         "id": "2.d",
-        "title": "What does having a pregnancy disorder mean for how my baby might be born?",
+        "title": "What does having a pregnancy disorder mean for how my pēpi might be born?",
         "component": "none",
         "heading": "Disorders",
         "icon": "mdi-heart-minus"
       },
       "extra-care":{
         "id": "2.e",
-        "title": "When baby needs extra care after birth",
+        "title": "When pēpi needs extra care after birth",
         "component": "none",
         "heading": "Extra care",
         "icon": "mdi-heart-minus"

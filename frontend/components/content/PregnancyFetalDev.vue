@@ -71,7 +71,7 @@ export default {
           title: '2nd trimester',
           description: 'Weeks 13-26 (or months 4-6)',
           icon: 'mdi-baby-bottle-outline',
-          content: 'The foundations of the placenta are laid down, allowing blood flow to bring more nutrients and oxygen from mum to the fetus. The developing fetus gets bigger and you can see more features on the scan. \n\nAround week 20, many mothers feel the first movements of their baby-to-be. Organs like the lungs and digestive system mature, and the sex of the future baby can be determined from an ultrasound scan. \n\nYou can find an example ultrasound scan at <b>20 weeks</b> below.',
+          content: 'The foundations of the placenta are laid down, allowing blood flow to bring more nutrients and oxygen from mum to the fetus. The developing fetus gets bigger and you can see more features on the scan. \n\nAround week 20, many mothers feel the first movements of their pēpi-to-be. Organs like the lungs and digestive system mature, and the sex of the future pēpi can be determined from an ultrasound scan. \n\nYou can find an example ultrasound scan at <b>20 weeks</b> below.',
           images: [
             {
               src: '/img/pregnancy-journey/fetal-development/Week20_15_Biparietal diameter (BPD).jpg',

@@ -8,7 +8,7 @@
     <!-- What it is -->
     <section class="mb-10">
       <h3 class="text-xl font-semibold mb-3" style="color: var(--v-accent-base);">
-        What it is, why pēpi (baby) might need to be sent there
+        What it is, why pēpi might need to be sent there
       </h3>
       <div class="text-gray-700 leading-relaxed space-y-3">
         <p>

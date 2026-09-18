@@ -27,7 +27,7 @@
           have, and aims to:
         </p>
         <ul>
-          <li>Determine if there is a single baby or twins/triplets.</li>
+          <li>Determine if there is a single pēpi or twins/triplets.</li>
           <li>Check the basic anatomy of the fetus.</li>
           <li>Listen to the fetal heartbeat.</li>
           <li>
@@ -58,7 +58,7 @@
             any movement can be seen.
           </li>
           <li>
-            Your baby's growth by measuring the length of the main thigh bone
+            Your pēpi's growth by measuring the length of the main thigh bone
             (the femur), the distance from the top of its head to the bottom
             of its spine (crown-rump length), and the circumference of its
             head and abdomen.
@@ -66,7 +66,7 @@
           <li>How the heart is beating.</li>
           <li>How easily blood is flowing to the placenta.</li>
           <li>
-            The amount of fluid around your baby. Low levels of amniotic fluid
+            The amount of fluid around your pēpi. Low levels of amniotic fluid
             can be an indicator of pregnancy complications.
           </li>
           <li>Where the placenta is growing.</li>
@@ -74,13 +74,13 @@
       <figure class="figure-group"; style='text-align: center;'>
         <figure class="subfigure">
           <img :src="getImagePath('/img/ultrasound/fetal-development_us/limbs/Week20_71_feet.jpg')" alt='20-week ultrasound scan showing the feet.' style='width: 50%; max-width: 700px; margin: 20px auto; display: block;' />
-          <figcaption>Feet of baby</figcaption>
+          <figcaption>Feet of pēpi</figcaption>
         </figure>
         <figure class="subfigure">
           <img :src="getImagePath('/img/ultrasound/fetal-development_us/organs/Week20_57_4_chamber_heart.gif')" alt='20-week ultrasound scan showing the heart beating.' style='width: 50%; max-width: 700px; margin: 20px auto; display: block;' />
-          <figcaption>Beating heart of baby</figcaption>
+          <figcaption>Beating heart of pēpi</figcaption>
         </figure>
-        <figcaption><small>Examples of a 20 week ultrasound scan of the baby, with key body parts labelled in <strong>red</strong>. &copy; 2025 James Lab & Pregnancy Modelling Group. All rights reserved.</small></figcaption>
+        <figcaption><small>Examples of a 20 week ultrasound scan of the pēpi, with key body parts labelled in <strong>red</strong>. &copy; 2025 James Lab & Pregnancy Modelling Group. All rights reserved.</small></figcaption>
       </figure>
       </v-card-text>
     </v-card>
@@ -122,7 +122,7 @@
 
         <v-card-text class="pt-4">
           This is a measurement of the thickness of fluid at the back of the
-          baby’s neck that is used in combination with a blood test to screen
+          pēpi’s neck that is used in combination with a blood test to screen
           for chromosomal conditions like Down Syndrome, Trisomy 13, and Trisomy
           18.
         </v-card-text>
