@@ -4,7 +4,7 @@
   "items": [
     {
       "title": "What is happening in pregnancy?",
-      "description": "Information on how your body changes to support your babys growth during pregnancy, and how your midwife/doctor will track the health of you and your baby.",
+      "description": "Information on how your body changes to support your pēpi's (baby) growth during pregnancy, and how your midwife/doctor will track the health of you and your pēpi.",
       "image": "/img/landing/pregnancy.svg",
       "backgroundColor": "#7A3520",
       "link": "/pregnancy-changes"
@@ -13,7 +13,7 @@
     {
       "index": 4,
       "title": "What does my ultrasound scan mean?",
-      "description": "Ultrasound scans let doctors check on the health of your baby (and its placenta). Use our interactive tool to better understand what ultrasound is measuring, how it can tell us about baby's health, and what your scan may mean.",
+      "description": "Ultrasound scans let doctors check on the health of your pēpi (and its placenta). Use our interactive tool to better understand what ultrasound is measuring, how it can tell us about pēpi's health, and what your scan may mean.",
       "image": "/img/landing/ultrasound.svg",
       "backgroundColor": "#185168",
       "link": "/ultrasound-what-is-ultrasound"
@@ -37,7 +37,7 @@
     },
     {
       "index": 0,
-      "title": "What pregnancy / baby support services are available?",
+      "title": "What pregnancy / pēpi (baby) support services are available?",
       "description": "The pregnancy experience is different for everyone. Here you can find information on support services available for you and your whānau (family) to help navigate your journey, whatever it may look like.",
       "image": "/img/landing/heart.svg",
       "backgroundColor": "#470b4d",
@@ -45,7 +45,7 @@
     },
     {
       "index": 5,
-      "title": "Our Team",
+      "title": "Our team",
       "description": "Learn more about the team behind this app, and how we are working to support you and your whānau (family).",
       "image": "/img/landing/about-us.svg",
       "backgroundColor": "#062405",

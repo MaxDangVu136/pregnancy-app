@@ -56,7 +56,7 @@
     <!-- reference -->
     <div class="reference-section">
       <p>*Data comes from <a class="ml-1" href="https://www.asum.com.au/wp-content/uploads/2015/09/Fetal-Measurements.pdf" target="_blank"> ASUM</a>.</p>
-      <p><strong>Note:</strong>&nbsp;Seeing how your baby is growing over time is just as important as seeing what they are like at any one time.</p>
+      <p><strong>Note:</strong>&nbsp;Seeing how your pēpi is growing over time is just as important as seeing what they are like at any one time.</p>
     </div>
   </div>
 </template>

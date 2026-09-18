@@ -8,7 +8,7 @@
     <!-- What it is -->
     <section class="mb-10">
       <h3 class="text-xl font-semibold mb-3" style="color: var(--v-accent-base);">
-        What it is, why pēpi (baby) might need to be sent there
+        What it is, why pēpi might need to be sent there
       </h3>
       <div class="text-gray-700 leading-relaxed space-y-3">
         <p>
@@ -19,7 +19,7 @@
         <p>
           Babies may be admitted for many reasons — being born preterm, low birth weight, breathing difficulties,
           infections, jaundice, or after a complicated birth. The teams include doctors, nurses, lactation consultants
-          and allied health professionals working alongside you and your LMC.
+          and allied health professionals working alongside you and your lead maternity carer (LMC).
         </p>
       </div>
     </section>
