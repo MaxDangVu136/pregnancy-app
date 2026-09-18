@@ -19,7 +19,7 @@
         <p>
           Babies may be admitted for many reasons — being born preterm, low birth weight, breathing difficulties,
           infections, jaundice, or after a complicated birth. The teams include doctors, nurses, lactation consultants
-          and allied health professionals working alongside you and your LMC.
+          and allied health professionals working alongside you and your lead maternity carer (LMC).
         </p>
       </div>
     </section>
