@@ -1,7 +1,7 @@
 {
   "pregnancy": {
     "id": "1",
-    "title": "Pregnancy Journey",
+    "title": "Pregnancy journey",
     "component": "none",
     "heading": "What is happening in pregnancy?",
     "content": "Your body is changing to accommodate the growth of your pēpi (baby). Here, you can find information on what is happening to your body, how the pēpi grows and is nourished by the placenta, and the different ways your midwife or doctor may check on your pēpi’s health during pregnancy.",
@@ -91,7 +91,7 @@
   },
   "complications": {
     "id": "2",
-    "title": "Pregnancy Complications",
+    "title": "Pregnancy complications",
     "component": "none",
     "content":"Whilst most pregnancies and births progress smoothly, some can be complicated by pregnancy disorders. If you have been told you have a complication in pregnancy you are not alone – pregnancy disorders affect around 6000 pēpi (baby) and their whānau (family) each year in New Zealand (1 in 10 pregnancies). <br /><br />On these pages, you will find information to help you understand what causes common issues in pregnancy, how your doctor/midwife may check on pēpi, and what this may mean for your pregnancy journey. ",
     "heading": "How to navigate pregnancy complications?",
@@ -122,7 +122,7 @@
         "id": "2.d",
         "title": "What does having a pregnancy disorder mean for how my pēpi might be born?",
         "component": "none",
-        "heading": "Disorders",
+        "heading": "Labour and delivery with pregnancy disorders",
         "icon": "mdi-heart-minus"
       },
       "extra-care":{
