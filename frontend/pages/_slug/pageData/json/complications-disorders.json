@@ -21,6 +21,14 @@
     ],
     "addtionalResources": [
       {
+        "title": "Labour and birth.",
+        "id": "2.d.c",
+        "description": "Documents the choices you can make during labour and birth.",
+        "icon": "mdi-web",
+        "iconColor": "var(--v-primary-base)",
+        "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth"
+      },
+      {
         "title": "What happens in labour?",
         "id": "2.d.c",
         "description": "Exhaustive list of information about going into labour, and the different stages of labour.",
