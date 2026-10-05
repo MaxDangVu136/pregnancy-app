@@ -18,40 +18,6 @@
         "iconColor": "var(--v-primary-base)",
         "content":"<strong>PLACEHOLDER</strong>. See <i>Extra Care</i> for inspiration, implement once we have stories."
       }
-    ],
-    "addtionalResources": [
-      {
-        "title": "Labour and birth",
-        "id": "2.d.c",
-        "description": "Documents the choices you can make during labour and birth.",
-        "icon": "mdi-web",
-        "iconColor": "var(--v-primary-base)",
-        "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth"
-      },
-      {
-        "title": "What happens in labour?",
-        "id": "2.d.c",
-        "description": "Exhaustive list of information about going into labour, and the different stages of labour.",
-        "icon": "mdi-web",
-        "iconColor": "var(--v-primary-base)",
-        "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/going-into-labour"
-      },
-      {
-        "title": "Choosing where to give birth",
-        "id": "2.d.d",
-        "description": "Information about where to give birth, and who is involved to support you.",
-        "icon": "mdi-web",
-        "iconColor": "var(--v-primary-base)",
-        "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/where-to-give-birth"
-      },
-      {
-        "title": "Who to have with you during the birth",
-        "id": "2.d.e",
-        "description": "Who can help you before and during your birth.",
-        "icon": "mdi-web",
-        "iconColor": "var(--v-primary-base)",
-        "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/who-to-have-with-you-during-the-birth"
-      }
     ]
   }
   
