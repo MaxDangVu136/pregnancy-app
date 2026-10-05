@@ -2,6 +2,7 @@
   <!-- TODO: Smooth the curves -->
   <div class="chart-container">
     <div class="input-section">
+      <p>Seeing how your pēpi develops over time is just as important as seeing what they are like at any one time. One useful metric is the biparietal diameter (BPD), which is the diameter of the fetal head measured from the forehead to the back of the head. <br></br>In conjunction with ultrasound scans taken at 12 weeks and 20 weeks, BPD is useful to estimate fetal weight, determine gestational age and a potential due date (dating). This gives the whānau and healthcare providers a better idea of your pēpi's growth rate.</p>
       <div class="input-group">
         <div>
         <label for="gestationalAge">Gestational Age (11-41 Weeks):</label>
@@ -55,8 +56,7 @@
 
     <!-- reference -->
     <div class="reference-section">
-      <p>*Data comes from <a class="ml-1" href="https://www.asum.com.au/wp-content/uploads/2015/09/Fetal-Measurements.pdf" target="_blank"> ASUM</a>.</p>
-      <p><strong>Note:</strong>&nbsp;Seeing how your pēpi is growing over time is just as important as seeing what they are like at any one time.</p>
+      <p>*Data comes from <a class="ml-1" href="https://www.asum.com.au/wp-content/uploads/2015/09/Fetal-Measurements.pdf" target="_blank"> Australasian Society For Ultrasound In Medicine (ASUM).</a></p>
     </div>
   </div>
 </template>
@@ -76,7 +76,7 @@ export default {
       userPoint: null,
       // BPD growth data
       bpdData: {
-        title: 'Biparietal Diameter (BPD)',
+        title: 'Fetal growth over time during pregnancy',
         unit: 'mm',
         data: {
           11: { mean: 16, sd: 2.0 },
@@ -228,7 +228,7 @@ export default {
     getChartOption() {
       const series = [
         {
-          name: '5th Percentile (-2SD)',
+          name: '5th Percentile (lower limit)',
           type: 'line',
           data: this.chartData.p5,
           smooth: true,
@@ -242,7 +242,7 @@ export default {
           symbol: 'none'
         },
         {
-          name: '50th Percentile (Mean)',
+          name: '50th Percentile (average)',
           type: 'line',
           data: this.chartData.p50,
           smooth: true,
@@ -256,7 +256,7 @@ export default {
           symbol: 'none'
         },
         {
-          name: '95th Percentile (+2SD)',
+          name: '95th Percentile (upper limit)',
           type: 'line',
           data: this.chartData.p95,
           smooth: true,
@@ -291,6 +291,7 @@ export default {
         title: {
           text: `${this.bpdData.title}`,
           left: 'center',
+          top: 10,
           textStyle: {
             fontSize: 16,
             fontWeight: 'normal',
@@ -301,7 +302,7 @@ export default {
           left: '10%',
           right: '10%',
           top: '15%',
-          bottom: '15%',
+          bottom: '18%',
           containLabel: true
         },
         xAxis: {
@@ -329,7 +330,7 @@ export default {
         },
         yAxis: {
           type: 'value',
-          name: `${this.bpdData.title} (${this.bpdData.unit})`,
+          name: `Biparietal Diameter (${this.bpdData.unit})`,
           nameLocation: 'middle',
           nameGap: 40,
           axisLabel: {
@@ -350,14 +351,15 @@ export default {
         },
         series: series,
         legend: {
-          data: ['5th Percentile (-2SD)', '50th Percentile (Mean)', '95th Percentile (+2SD)', 'Your Measurement'],
+          data: ['5th Percentile (lower limit)', '50th Percentile (average)', '95th Percentile (upper limit)', 'Your Measurement'],
           bottom: 0,
           textStyle: {
-            color: this.colors.secondary
+            color: this.colors.secondary,
+            fontSize: 9
           },
-          itemWidth: 25,
-          itemHeight: 14,
-          itemGap: 10
+          itemWidth: 15,
+          itemHeight: 10,
+          itemGap: 15
         },
         tooltip: {
           trigger: 'axis',
