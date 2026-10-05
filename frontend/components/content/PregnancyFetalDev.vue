@@ -91,7 +91,7 @@ export default {
           title: '3rd trimester',
           description: 'Weeks 27-40 (or months 7-9)',
           icon: 'mdi-baby',
-          content: 'This stage is all about growth and fine-tuning of the fetus. \n\nThe brain develops rapidly, fat accumulates under the skin, and the lungs prepare for breathing. The fetus responds to sounds and light. \n\nAs space in the uterus becomes smaller for the growing fetus, it naturally turns to a position of \'best fit\'. Here, the head faces downwards, getting ready for birth. \n\nYou can find an example ultrasound scan at <b>35 weeks</b> below.',
+          content: 'This stage is all about the growth of the fetus. \n\nThe brain develops rapidly, fat accumulates under the skin, and the lungs prepare for breathing. The fetus responds to sounds and light. \n\nAs space in the uterus becomes smaller for the growing fetus, it naturally turns to a position of \'best fit\'. Here, the head faces downwards, getting ready for birth. \n\nYou can find an example ultrasound scan at <b>35 weeks</b> below.',
           images: [
             {
               src: '/img/pregnancy-journey/fetal-development/Week35_15_Biparietal diameter (BPD).jpg',

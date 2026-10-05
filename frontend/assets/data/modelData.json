@@ -4,7 +4,7 @@
       "model": "normal",
       "modelName": "Normal",
       "description": "Normal Placenta, the blood flow is normal and healthy.",
-      "color": "#4CAF50",
+      "color": "#009E73",
       "config": {
         "path": "/model/normal.vtk",
         "displayName": "Normal Placenta",
@@ -34,7 +34,7 @@
         "waveformNote":"* Normal Ultrasound Image",
         "description": "Blood flow characteristics in the umbilical cord can reflect the health of the fetus",
         "colors": {
-          "normal": "#4CAF50",
+          "normal": "#009E73",
           "colorblind": "#2196F3"
         },
         "timeOffset": 1.45
