@@ -9,7 +9,7 @@
       "title": "Different terms used to describe reduced fetal growth",
       "icon": "mdi-heart-minus",
       "iconColor": "var(--v-primary-base)",
-      "content":"Babies usually grow steadily in utero, fed by the nutrients and oxygen passed across the placenta from mum. <br /> <br />However, there may be concerns when the pēpi is smaller than expected for that stage of pregnancy (something called <strong>Small for Gestational Age (SGA)</strong>). In some cases, the pēpi's growth slows down and indicates that the nourishment of the pēpi through the placenta cannot keep up with the pēpi's needs (a condition called <strong>Fetal Growth Restriction (FGR)</strong>).  <br /> <br />It is essential to remember that many SGA babies, in particular, are healthy and just naturally small. Still, it is important to check on these babies more closely so we can know if something is going wrong." 
+      "content":"Babies usually grow steadily in utero, fed by the nutrients and oxygen passed across the placenta from mum. <br /> <br />However, there may be concerns when the pēpi is smaller than expected for that stage of pregnancy (<strong>Small for Gestational Age (SGA)</strong>). In some cases, the pēpi's growth slows down. It indicates that the nourishment of the pēpi through the placenta cannot keep up with the pēpi's needs (a condition called <strong>Fetal Growth Restriction (FGR)</strong>).  <br /> <br />It is essential to remember that many SGA babies, in particular, are healthy and just naturally small. Still, it is important to check on these babies more closely so we can know if something is going wrong." 
     },
     {
       "id": "2.a.b",
@@ -42,17 +42,17 @@
   ],
   "addtionalResources": [
     {
-      "title": "Small for gestational age (SGA) babies",
+      "title": "Small for Gestational Age (SGA)",
       "id": "2.a.f",
-      "description": "Starship guide for SGA newborns",
+      "description": "Starship guide for looking after SGA newborns",
       "icon": "mdi-web",
       "iconColor": "var(--v-primary-base)",
       "link": "https://www.starship.org.nz/small-for-gestational-age-babies/"
     },
     {
-      "title": "FGR",
+      "title": "Fetal Growth Restriction (FGR)",
       "id": "2.a.f",
-      "description": "More information on FGR / having a small pēpi",
+      "description": "More information about having a small pēpi with FGR",
       "icon": "mdi-web",
       "iconColor": "var(--v-primary-base)",
       "link": "https://ranzcog.edu.au/wp-content/uploads/Fetal-Growth-Restriction.pdf"

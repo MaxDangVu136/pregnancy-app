@@ -232,6 +232,7 @@ export default {
       '/pregnancy-interact',
       '/pregnancy-keep-baby-healthy',
       '/pregnancy-placenta',
+      '/pregnancy-giving-birth',
       '/clinical-mid-wife',
       '/clinical-when-care-changes',
       '/support-services',

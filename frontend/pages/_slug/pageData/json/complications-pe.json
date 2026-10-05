@@ -35,11 +35,18 @@
   ],
   "addtionalResources": [
     {
-      "title": "Pre-eclampsia",
-      "description": "Information on Pre-eclampsia",
+      "title": "What is pre-eclampsia?",
+      "description": "HealthNZ resource about pre-eclampsia",
       "icon": "mdi-web",
       "iconColor": "var(--v-primary-base)",
       "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/having-a-healthy-pregnancy/pre-eclampsia"
+    },
+    {
+      "title": "Signs, symptoms and treatment of pre-eclampsia",
+      "description": "More in-depth pre-eclampsia from the Heart Research Institute (HRI)",
+      "icon": "mdi-web",
+      "iconColor": "var(--v-primary-base)",
+      "link": "https://www.hri.org.nz/health/learn/cardiovascular-disease/preeclampsia"
     }
   ]
 }

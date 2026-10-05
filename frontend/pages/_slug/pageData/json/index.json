@@ -7,6 +7,9 @@
   "pregnancy-fetal-dev": "pregnancy-fetal-dev.json",
   "pregnancy-placenta": "pregnancy-placenta.json",
   "pregnancy-baby": "pregnancy-baby.json",
+  "pregnancy-giving-birth": "pregnancy-giving-birth.json",
+  "pregnancy-keep-baby-healthy": "pregnancy-keep-baby-healthy.json",
+  "pregnancy-interact-with-your-placenta": "pregnancy-interact.json",
   "complications-fetal": "complications-fetal.json",
   "complications-pe": "complications-pe.json",
   "complications-gestational-diabetes": "complications-gestational-diabetes.json",
@@ -15,7 +18,5 @@
   "ultrasound-doppler": "ultrasound-doppler.json",
   "ultrasound-what-is-ultrasound": "ultrasound-what-is-ultrasound.json",
   "ultrasound-metric": "ultrasound-metric.json",
-  "pregnancy-keep-baby-healthy": "pregnancy-keep-baby-healthy.json",
-  "pregnancy-interact-with-your-placenta": "pregnancy-interact.json",
   "ultrasound-what-ultrasound-means": "ultrasound-what-ultrasound-means.json"
 }
