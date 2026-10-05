@@ -57,6 +57,7 @@
     <!-- reference -->
     <div class="reference-section">
       <p>*Data comes from <a class="ml-1" href="https://www.asum.com.au/wp-content/uploads/2015/09/Fetal-Measurements.pdf" target="_blank"> Australasian Society For Ultrasound In Medicine (ASUM).</a></p>
+      <p>*Note: The fetal growth presented here is from a population of babies from a single dataset. Please treat this information as purely educational, and not diagnostic. Please see a doctor, midwife or your LMC if you have concerns about your pēpi's growth.</p>
     </div>
   </div>
 </template>
