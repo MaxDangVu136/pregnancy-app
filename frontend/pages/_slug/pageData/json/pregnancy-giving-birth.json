@@ -9,21 +9,14 @@
       "title": "Spontaneous",
       "icon": "mdi-hospital",
       "iconColor": "var(--v-primary-base)",
-      "content": "Labour and muscle contractions begin naturally to open mum's cervix between weeks 37 and 40. The pēpi is delivered through the vagina without medical intervention or surgical tools. This is the standard approach for giving birth if there are no health concerns for mum or pēpi."
+      "content": "Labour and muscle contractions begin naturally to open mum's cervix between weeks 37 and 40. The pēpi is delivered through the vagina without medical intervention or surgical tools. This is the standard approach for giving birth if there are no health concerns for mum or pēpi. <br></br> <strong>Mention something about water births.</strong> "
     },
     {
       "id": "1.g.b",
-      "title": "Induced Labour",
+      "title": "What happens if there are health complications?",
       "icon": "mdi-hospital",
       "iconColor": "var(--v-primary-base)",
-      "content": "In this situation, labour and muscle contractions begin artificially for mum rather than naturally. The decision is made with the following in mind: <ul><li>If your pēpi is overdue (e.g. 41 weeks)</li><li>Your waters are broken before labour starts</li><li>Mum or pēpi has a health problem, e.g. <a href='/complications-gestational-diabetes'>Gestational diabetes</a>, <a href='/complications-pe'>Pre-eclampsia</a>.</li></ul>"
-    },
-    {
-      "id": "1.g.c",
-      "title": "C-Section",
-      "icon": "mdi-hospital",
-      "iconColor": "var(--v-primary-base)",
-      "content": "This is an operation where a cut is made through your abdomen and womb to deliver the pēpi. Mum is advised to take this option if vaginal birth is not possible or safe. There are many reasons for this, including:<ul><li>The placenta is blocking the pēpi's path through the cervix; </li><li>Mum has had a previous C-section or a major surgery to the uterus; </li><li>The pēpi is premature or not developing well; </li><li>Both mum and pēpi have serious medical condition/complication."
+      "content": "If either mum or pēpi has a health problem, e.g. <a href='/complications-gestational-diabetes'>Gestational diabetes</a>, <a href='/complications-pe'>Pre-eclampsia</a>, or that pēpi is overdue, alternative delivery methods are considered and often recommended by doctors. <br></br>The two most prominent methods are an induced labour or a C-section, which you can read more about in the <a href='/complications-disorders'>Pregnancy Complications</a> section."
     }
   ],
   "addtionalResources": [

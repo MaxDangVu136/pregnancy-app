@@ -36,17 +36,17 @@
   "addtionalResources": [
     {
       "title": "Gestational diabetes - Diabetes New Zealand",
-      "description": "Get a more focused look on gestational diabetes",
+      "description": "Get a more diabetes-focused look at gestational diabetes",
       "icon": "mdi-web",
       "iconColor": "var(--v-primary-base)",
       "link": "https://www.diabetes.org.nz/gestational-diabetes"
     },
     {
       "title": "Gestational diabetes - Health New Zealand",
-      "description": "Further information on gestational diabetes diagnosis and management",
+      "description": "Information on how to manage gestational diabetes and related disorders",
       "icon": "mdi-web",
       "iconColor": "var(--v-primary-base)",
-      "link": "https://www.healthnz.govt.nz/health-topics/conditions-treatments/diabetes/gestational-diabetes"
+      "link": "https://www.healthnz.govt.nz/health-topics/conditions-treatments/diabetes/gestational-diabetes/gestational-diabetes-pregnancy-and-your-baby"
     }
   ]
 }
