@@ -125,7 +125,7 @@
         "heading": "Gestational diabetes",
         "icon": "mdi-heart-minus"
       },
-      "disorders":{
+      "birth-considerations":{
         "id": "2.d",
         "title": "What does having a pregnancy disorder mean for how my pēpi might be born?",
         "component": "none",

@@ -16,7 +16,7 @@
       "title": "What happens if there are health complications?",
       "icon": "mdi-hospital",
       "iconColor": "var(--v-primary-base)",
-      "content": "If either mum or pēpi has a health problem, e.g. <a href='/complications-gestational-diabetes'>Gestational diabetes</a>, <a href='/complications-pe'>Pre-eclampsia</a>, or that pēpi is overdue, alternative delivery methods are considered and often recommended by doctors. <br></br>The two most prominent methods are an induced labour or a C-section, which you can read more about in the <a href='/complications-disorders'>Pregnancy Complications</a> section."
+      "content": "If either mum or pēpi has a health problem, e.g. <a href='/complications-gestational-diabetes'>Gestational diabetes</a>, <a href='/complications-pe'>Pre-eclampsia</a>, or that pēpi is overdue, alternative delivery methods are considered and often recommended by doctors. <br></br>The two most prominent methods are an induced labour or a C-section, which you can read more about in the <a href='/complications-birth-considerations'>Pregnancy Complications</a> section."
     }
   ],
   "addtionalResources": [
@@ -31,7 +31,7 @@
   {
     "title": "What happens in labour?",
     "id": "2.d.c",
-    "description": "Exhaustive list of information about going into labour, and the different stages of labour.",
+    "description": "Exhaustive list of information about going into labour, and the different stages of labour",
     "icon": "mdi-web",
     "iconColor": "var(--v-primary-base)",
     "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/going-into-labour"
@@ -39,7 +39,7 @@
   {
     "title": "Choosing where to give birth",
     "id": "2.d.d",
-    "description": "Information about where to give birth, and who is involved to support you.",
+    "description": "Information about where to give birth, and who is involved to support you",
     "icon": "mdi-web",
     "iconColor": "var(--v-primary-base)",
     "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/where-to-give-birth"

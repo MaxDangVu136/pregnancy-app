@@ -224,7 +224,7 @@ export default {
       '/complications-fetal',
       '/complications-gestational-diabetes',
       '/complications-pe',
-      '/complications-disorders',
+      '/complications-birth-considerations',
       '/complications-extra-care',
       '/pregnancy-baby',
       '/pregnancy-changes',
