@@ -9,7 +9,7 @@
       "title": "Spontaneous",
       "icon": "mdi-hospital",
       "iconColor": "var(--v-primary-base)",
-      "content": "Labour and muscle contractions begin naturally to open mum's cervix between weeks 37 and 40. The pēpi is delivered through the vagina without medical intervention or surgical tools. This is the standard approach for giving birth if there are no health concerns for mum or pēpi. <br></br> <strong>Mention something about water births.</strong> "
+      "content": "Labour and muscle contractions begin naturally to open mum's cervix between weeks 37 and 40. The pēpi is delivered through the vagina without medical intervention or surgical tools. This is the standard approach for giving birth if there are no health concerns for mum or pēpi. <br></br> Water births has been shown to help reduce pain, and increase comfort level for mum during labour. In most cases, it does not increase the risk of infection for mum and pēpi. Please speak to your doctor, midwife or LMC on whether a water birth is appropriate for you, and whether you have health issues that may make water births unsafe."
     },
     {
       "id": "1.g.b",
@@ -22,7 +22,7 @@
   "addtionalResources": [
   {
     "title": "Labour and birth",
-    "id": "2.d.c",
+    "id": "2.d.a",
     "description": "Documents the choices you can make during labour and birth.",
     "icon": "mdi-web",
     "iconColor": "var(--v-primary-base)",
@@ -30,7 +30,7 @@
   },
   {
     "title": "What happens in labour?",
-    "id": "2.d.c",
+    "id": "2.d.b",
     "description": "Exhaustive list of information about going into labour, and the different stages of labour",
     "icon": "mdi-web",
     "iconColor": "var(--v-primary-base)",
@@ -38,7 +38,7 @@
   },
   {
     "title": "Choosing where to give birth",
-    "id": "2.d.d",
+    "id": "2.d.c",
     "description": "Information about where to give birth, and who is involved to support you",
     "icon": "mdi-web",
     "iconColor": "var(--v-primary-base)",
@@ -46,11 +46,19 @@
   },
   {
     "title": "Who to have with you during the birth",
-    "id": "2.d.e",
+    "id": "2.d.d",
     "description": "Who can help you before and during your birth.",
     "icon": "mdi-web",
     "iconColor": "var(--v-primary-base)",
     "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/who-to-have-with-you-during-the-birth"
+  },
+  {
+    "title": "Water labour and birth",
+    "id": "2.d.e",
+    "description": "Check out the benefits of water birth, how to prep, and whether it's for you.",
+    "icon": "mdi-web",
+    "iconColor": "var(--v-primary-base)",
+    "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/water-labour-and-birth#water-labour-and-birth-safety-9895"
   }
 ]
 }
