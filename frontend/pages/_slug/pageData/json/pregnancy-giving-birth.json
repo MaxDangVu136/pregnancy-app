@@ -1,0 +1,56 @@
+{
+  "title": "Delivering your pēpi",
+  "id": "1.g",
+  "description": "There are several different ways of delivering your pēpi. The appropriate approach depends on your personal preferences, your health status and the medical necessities for your pregnancy. <br></br>Please be assured that choosing the delivery method is a shared decision making process between mum, their partner and whānau, and the trained healthcare providers (e.g. midwife, leading maternity carer (LMC), obstetrician). They will be present at your labour to support you as you give birth.",
+  "showModel": false,
+  "contentSections": [
+    {
+      "id": "1.g.a",
+      "title": "Spontaneous",
+      "icon": "mdi-hospital",
+      "iconColor": "var(--v-primary-base)",
+      "content": "Labour and muscle contractions begin naturally to open mum's cervix between weeks 37 and 40. The pēpi is delivered through the vagina without medical intervention or surgical tools. This is the standard approach for giving birth if there are no health concerns for mum or pēpi. <br></br> <strong>Mention something about water births.</strong> "
+    },
+    {
+      "id": "1.g.b",
+      "title": "What happens if there are health complications?",
+      "icon": "mdi-hospital",
+      "iconColor": "var(--v-primary-base)",
+      "content": "If either mum or pēpi has a health problem, e.g. <a href='/complications-gestational-diabetes'>Gestational diabetes</a>, <a href='/complications-pe'>Pre-eclampsia</a>, or that pēpi is overdue, alternative delivery methods are considered and often recommended by doctors. <br></br>The two most prominent methods are an induced labour or a C-section, which you can read more about in the <a href='/complications-birth-considerations'>Pregnancy Complications</a> section."
+    }
+  ],
+  "addtionalResources": [
+  {
+    "title": "Labour and birth",
+    "id": "2.d.c",
+    "description": "Documents the choices you can make during labour and birth.",
+    "icon": "mdi-web",
+    "iconColor": "var(--v-primary-base)",
+    "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth"
+  },
+  {
+    "title": "What happens in labour?",
+    "id": "2.d.c",
+    "description": "Exhaustive list of information about going into labour, and the different stages of labour",
+    "icon": "mdi-web",
+    "iconColor": "var(--v-primary-base)",
+    "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/going-into-labour"
+  },
+  {
+    "title": "Choosing where to give birth",
+    "id": "2.d.d",
+    "description": "Information about where to give birth, and who is involved to support you",
+    "icon": "mdi-web",
+    "iconColor": "var(--v-primary-base)",
+    "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/where-to-give-birth"
+  },
+  {
+    "title": "Who to have with you during the birth",
+    "id": "2.d.e",
+    "description": "Who can help you before and during your birth.",
+    "icon": "mdi-web",
+    "iconColor": "var(--v-primary-base)",
+    "link": "https://www.healthnz.govt.nz/health-topics/pregnancy-maternity/labour-and-birth/who-to-have-with-you-during-the-birth"
+  }
+]
+}
