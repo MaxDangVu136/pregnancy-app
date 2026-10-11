@@ -33,23 +33,26 @@
           @click="showUmbilicalDialog = true"
         >
           umbilical artery
-        </v-btn> (see example below). 
-        These vessels are chosen as they are large enough to easily image, and provide useful information about downstream blood flow through the uterus and the placenta respectively. Places that appear red or blue on the image indicates blood flow towards and the ultrasound probe, and away from it respectively. Dark shades on the image show slow blood flow, and light shades show faster blood flow, as shown below.
+        </v-btn> <strong>(see example below)</strong>. 
+        These vessels are large enough to easily image, and provide useful information about downstream blood flow through the uterus and the placenta respectively. Red or blue spots on the image indicate blood flow towards the ultrasound probe, and away from it respectively. Dark shades on the image show slow blood flow, and light shades for faster blood flow.
         <!-- Normal Doppler -->
         <!-- <img src="https://www.researchgate.net/profile/Kilian-Pohl/publication/221363274/figure/fig1/AS:305378391805956@1449819290476/llustration-of-shape-patterns-conveyed-by-Doppler-images-for-various-cardiac.png" alt="Normal Doppler" /> -->
         <figure style="text-align: center;">
-          <img :src="getImagePath('/img/ultrasound/doppler/Week20_95_umbilical_doppler.jpg')" alt='Example Doppler Ultrasound through the umbilical artery.' style='width: 100%; max-width: 700px; margin: 20px auto; display: block;' />
+          <img :src="getImagePath('/img/normal-ultrasound.jpg')" alt='Example Doppler Ultrasound through the umbilical artery.' style='width: 100%; max-width: 700px; margin: 20px auto; display: block;' />
           <figcaption>
             <small>Example of a Doppler ultrasound image. &copy; 2025 James Lab & Pregnancy Modelling Group. All rights reserved.</small>
           </figcaption>
         </figure>
       </p>
       <p class="text-lg leading-relaxed mb-6">
-        Sometimes if blood flow in the uterine or umbilical artery is abnormal Doppler ultrasound of some of the major blood vessels in the fetus may also be measured. These vessels include the middle cerebral artery (MCA), commonly performed after 32 weeks, to monitor blood flow to the pēpi's upper body. The CPR (Cerebroplacental Ratio) is reported to indicate the wellbeing of the fetus. This ratio is calculated by dividing the pulsatility index of the MCA with that of the umbilical artery.
+        Sometimes if blood flow in the uterine or umbilical artery is abnormal, Doppler ultrasound images can be taken of major blood vessels in the fetus. These vessels include the ductus venosis (DV) and the middle cerebral artery (MCA).
+      </p> 
+      <p class="text-lg leading-relaxed mb-6">
+        Imaging the DV helps to monitor blood flow around the wider fetal circulation early in pregnancy <strong>(11-13 weeks)</strong>. For high-risk pregnancies, e.g. involving a small-for-gestational-age (SGA) fetus, DV doppler is also performed in the second and third trimesters to monitor potential complications.
       </p>
       <p class="text-lg leading-relaxed mb-6">
-        In some cases, the ductus venosis (DV) is also imaged early in the pregnancy (11-13 weeks) to monitor blood flow around the wider fetal circulation. For high-risk pregnancies, e.g. involving a small-for-gestational-age (SGA) fetus, DV doppler is also performed in the second and third trimesters to monitor potential complications. 
-      </p>
+        Imaging the MCA is performed after <strong>32 weeks</strong> to monitor blood flow to the pēpi's upper body. From this, a useful clinical metric called CPR (Cerebroplacental Ratio) is reported to indicate the wellbeing of the fetus.
+      </p> 
       <p class="text-lg leading-relaxed mb-6">
         Doppler ultrasound produces a signal in the form of a wave across each heartbeat. Interpreting the shape of that wave provides information about fetal health. Each major vessel in the body produces a 'signature' shape, and your clinical team can use different measurements and features taken from the shape of these waveforms to understand if blood is flowing to the placenta and pēpi normally, or if it may be reduced.
       </p>
@@ -137,13 +140,13 @@ export default {
         },
         uterine: {
           title: "Uterine Artery",
-          content: "Uterine is xxx",
+          content: "The uterine artery is a blood vessel that supplies blood from the heart to the uterus.",
           controller: "showUterineDialog",
           icon: "mdi-heart-pulse",
         },
         umbilical: {
           title: "Umbilical Artery",
-          content: "Umbilical is xxx",
+          content: "The umbilical arteries are two blood vessels that transports deoxygenated blood and waste products from the fetus to the placenta. These arteries move through the umbilical cord back to mum's side of the placenta, where the wastes are removed through maternal circulation.",
           controller: "showUmbilicalDialog",
           icon: "mdi-baby-carriage",
         },
