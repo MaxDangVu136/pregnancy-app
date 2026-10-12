@@ -16,7 +16,7 @@
         "title": "C-Section",
         "icon": "mdi-hospital",
         "iconColor": "var(--v-primary-base)",
-        "content": "Mum is advised to take this option if vaginal birth is not possible or safe. There are many reasons for this, including:<ul><li>The placenta is blocking the pēpi's path through the cervix; </li><li>Mum has had a previous C-section or a major surgery to the uterus; </li><li>The pēpi is premature or not developing well; </li><li>Both mum and pēpi have serious medical condition/complication."
+        "content": "Mum is advised to take this option if vaginal birth is not possible or safe. There are many reasons for this, including:<ul><li>The placenta is blocking the pēpi's path through the cervix; </li><li>Mum has had a previous C-section or a major surgery to the uterus; </li><li>The pēpi is premature or not developing well; </li><li>Both mum and pēpi have serious medical condition/complication.</li></ul> You can find more details about C-Sections below or on <a href='/pregnancy-giving-birth'>this page</a> discussing the different ways of giving birth."
       },
       {
         "id": "2.d.c",
