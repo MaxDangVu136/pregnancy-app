@@ -183,7 +183,9 @@
           {{ dialogContent.cpr.title }}
         </v-card-title>
         <v-card-text class="pt-4">
-          <span v-html="dialogContent.cpr.content"></span>
+          This ratio is calculated by dividing the
+          <a :href="getRoutePath('/ultrasound-metric')">pulsatility index</a>
+          of the middle cerebral artery by that of the umbilical artery.
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
@@ -248,7 +250,6 @@ export default {
         },
         cpr: {
           title: "Cerebroplacental Ratio",
-          content: "This ratio is calculated by dividing the <a href='/ultrasound-metric'>pulsatility index</a> of the middle cerebral artery by that of the umbilical artery.",
           controller: "showCPRDialog",
           icon: "mdi-baby-carriage",
         }
@@ -264,6 +265,15 @@ export default {
       );
 
       return `${basePath}${imagePath}`;
+    },
+    getRoutePath(route) {
+      const basePath = this.$config.basePath || (
+        process.env.DEPLOY_ENV === 'GH_PAGES' ? '/pregnancy-app' : ''
+      );
+
+      return this.$config.deployEnv === 'GH_PAGES' || process.env.DEPLOY_ENV === 'GH_PAGES'
+        ? `${basePath}${route}`
+        : `/#${route}`;
     }
   },
 };

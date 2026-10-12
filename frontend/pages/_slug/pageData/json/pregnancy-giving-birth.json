@@ -13,6 +13,13 @@
     },
     {
       "id": "1.g.b",
+      "title": "C-Section",
+      "icon": "mdi-hospital",
+      "iconColor": "var(--v-primary-base)",
+      "content": "This is an operation where a cut is made through your abdomen and womb to deliver the pēpi. Mums can elect to have a C-Section in order to plan the exact date and time of the birth, and avoid the painful labour process. It is advised to have a discussion with the LMC to decide if this option is appropriate. <br></br>In some cases, C-Sections may be medically necessary, as covered in the <a href='/complications-birth-considerations'>Pregnancy Complications</a> section."
+    },
+    {
+      "id": "1.g.c",
       "title": "What happens if there are health complications?",
       "icon": "mdi-hospital",
       "iconColor": "var(--v-primary-base)",
