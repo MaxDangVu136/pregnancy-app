@@ -123,8 +123,8 @@
         <v-card-text class="pt-4">
           This is a measurement of the thickness of fluid at the back of the
           pēpi’s neck that is used in combination with a blood test to screen
-          for chromosomal conditions like Down Syndrome, Trisomy 13, and Trisomy
-          18.
+          for chromosomal conditions like Down Syndrome (Trisomy 21), Edwards 
+          Syndrome (Trisomy 18) and Patau Syndrome (Trisomy 13).
         </v-card-text>
 
         <v-card-actions>

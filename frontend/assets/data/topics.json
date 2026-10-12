@@ -77,14 +77,14 @@
         "id": "3.b",
         "title": "Doppler ultrasound",
         "component": "none",
-        "heading": "Doppler ultrasound in pregnancy ",
+        "heading": "Doppler ultrasound in pregnancy",
         "icon": "mdi-chart-areaspline"
       },
       "metric": {
         "id": "3.c",
         "title": "Doppler ultrasound metrics",
         "component": "none",
-        "heading": "How ultrasound can be used to detect pregnancy issues",
+        "heading": "How ultrasound helps detect pregnancy issues",
         "icon": "mdi-alert-circle"
       },
       "what-ultrasound-means": {
