@@ -45,16 +45,42 @@
         </figure>
       </p>
       <p class="text-lg leading-relaxed mb-6">
-        Sometimes if blood flow in the uterine or umbilical artery is abnormal, Doppler ultrasound images can be taken of major blood vessels in the fetus. These vessels include the ductus venosis (DV) and the middle cerebral artery (MCA).
+        Sometimes if blood flow in the uterine or umbilical artery is abnormal, Doppler ultrasound images can be taken of major blood vessels in the fetus. These vessels include the 
+        <v-btn 
+          text 
+          color="primary" 
+          class="medical-term-btn"
+          @click="showDVDialog = true"
+        >
+        ductus venosis (DV)
+        </v-btn>
+        and the 
+        <v-btn 
+          text 
+          color="primary" 
+          class="medical-term-btn"
+          @click="showMCADialog = true"
+        >
+        middle cerebral artery (MCA)
+        </v-btn>.
       </p> 
       <p class="text-lg leading-relaxed mb-6">
-        Imaging the DV helps to monitor blood flow around the wider fetal circulation early in pregnancy <strong>(11-13 weeks)</strong>. For high-risk pregnancies, e.g. involving a small-for-gestational-age (SGA) fetus, DV doppler is also performed in the second and third trimesters to monitor potential complications.
+        Imaging the DV helps to monitor blood flow around the wider fetal circulation early in pregnancy <strong>(11-13 weeks)</strong>. For high-risk pregnancies, e.g. involving a <a href='/complications-fetal'>small-for-gestational-age (SGA)</a> fetus, DV doppler is also performed in the second and third trimesters to monitor potential complications.
       </p>
       <p class="text-lg leading-relaxed mb-6">
-        Imaging the MCA is performed after <strong>32 weeks</strong> to monitor blood flow to the pēpi's upper body. From this, a useful clinical metric called CPR (Cerebroplacental Ratio) is reported to indicate the wellbeing of the fetus.
+        Imaging the MCA is performed after <strong>32 weeks</strong> to monitor blood flow to the pēpi's upper body. From this, a useful clinical metric called 
+        <v-btn 
+          text 
+          color="primary" 
+          class="medical-term-btn"
+          @click="showCPRDialog = true"
+        >
+        CPR (Cerebroplacental Ratio)
+        </v-btn>
+        is reported to indicate the wellbeing of the fetus.
       </p> 
       <p class="text-lg leading-relaxed mb-6">
-        Doppler ultrasound produces a signal in the form of a wave across each heartbeat. Interpreting the shape of that wave provides information about fetal health. Each major vessel in the body produces a 'signature' shape, and your clinical team can use different measurements and features taken from the shape of these waveforms to understand if blood is flowing to the placenta and pēpi normally, or if it may be reduced.
+        Doppler ultrasound produces a signal in the form of a wave across each heartbeat. Interpreting the shape of that wave provides information about fetal health. Each major vessel in the body produces a 'signature' shape. Your clinical team can use different measurements and features taken from the shape of these waveforms to understand if blood is flowing to the placenta and pēpi normally, or if it may be reduced.
       </p>
       <!-- TODO: MCA is common after 32 weeks - would be ideal to have a simple clear explanation of this as mention of the brain  creates anxiety  ++Also, we only report the CPR (ration between MCA PI and umA PI)_-->
 
@@ -113,6 +139,61 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
+
+    <v-dialog v-model="showDVDialog"   max-width="600">
+      <v-card>
+        <v-card-title class="headline primary--text">
+          <v-icon left color="primary">{{ dialogContent.dv.icon }}</v-icon>
+          {{ dialogContent.dv.title }}
+        </v-card-title>
+        <v-card-text class="pt-4">
+          {{ dialogContent.dv.content }}
+        </v-card-text>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn color="primary" text @click="showDVDialog = false">
+            Close
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+
+    <v-dialog v-model="showMCADialog"   max-width="600">
+      <v-card>
+        <v-card-title class="headline primary--text">
+          <v-icon left color="primary">{{ dialogContent.mca.icon }}</v-icon>
+          {{ dialogContent.mca.title }}
+        </v-card-title>
+        <v-card-text class="pt-4">
+          {{ dialogContent.mca.content }}
+        </v-card-text>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn color="primary" text @click="showMCADialog = false">
+            Close
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+
+    <v-dialog v-model="showCPRDialog"   max-width="600">
+      <v-card>
+        <v-card-title class="headline primary--text">
+          <v-icon left color="primary">{{ dialogContent.cpr.icon }}</v-icon>
+          {{ dialogContent.cpr.title }}
+        </v-card-title>
+        <v-card-text class="pt-4">
+          <span v-html="dialogContent.cpr.content"></span>
+        </v-card-text>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn color="primary" text @click="showCPRDialog = false">
+            Close
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+
     </div>
     </div>
   </template>
@@ -127,6 +208,9 @@ export default {
       showDopplerDialog: false,
       showUterineDialog: false,
       showUmbilicalDialog: false,
+      showDVDialog: false,
+      showMCADialog: false,
+      showCPRDialog: false,
 
       // Waveform parameters
       waveformPoints: [],
@@ -135,12 +219,12 @@ export default {
         doppler: {
           title: "Doppler Effect",
           icon: "mdi-wave",
-          content: "Doppler is xxx",
+          content: "The Doppler Effect describes the perceived changing frequency of waves (e.g. sound) with respect to the observer. A high frequency of sound waves indicates that the blood is flowing towards the ultrasound probe held by the imaging technician. The sound wave frequency lowers when blood flows away from the probe.",
           controller: "showDopplerDialog",
         },
         uterine: {
           title: "Uterine Artery",
-          content: "The uterine artery is a blood vessel that supplies blood from the heart to the uterus.",
+          content: "The uterine artery is a blood vessel that supplies oxygenated blood from the heart to the uterus. During pregnancy, these arteries enlargen to increase oxygenated blood supply to the growing fetus.",
           controller: "showUterineDialog",
           icon: "mdi-heart-pulse",
         },
@@ -150,6 +234,24 @@ export default {
           controller: "showUmbilicalDialog",
           icon: "mdi-baby-carriage",
         },
+        dv: {
+          title: "Ductus Venosis",
+          icon: "mdi-wave",
+          content: "The ductus venosus forms temporarily during pregnancy. This acts as a shunt to move blood flow from the umbilical vein of the fetus to the inferior vena cava (the largest vein in the body) of mum.",
+          controller: "showDVDialog",
+        },
+        mca: {
+          title: "Middle Cerebral Artery",
+          content: "The middle cerebral artery is a major blood vessel in the brain that supplies oxygenated blood from the heart to the cerebrum. This vessel originates from the internal carotid artery located in the neck.",
+          controller: "showMCADialog",
+          icon: "mdi-heart-pulse",
+        },
+        cpr: {
+          title: "Cerebroplacental Ratio",
+          content: "This ratio is calculated by dividing the <a href='/ultrasound-metric'>pulsatility index</a> of the middle cerebral artery by that of the umbilical artery.",
+          controller: "showCPRDialog",
+          icon: "mdi-baby-carriage",
+        }
       },
     };
   },
