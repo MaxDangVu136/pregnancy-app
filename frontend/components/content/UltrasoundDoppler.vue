@@ -184,7 +184,7 @@
         </v-card-title>
         <v-card-text class="pt-4">
           This ratio is calculated by dividing the
-          <a :href="getRoutePath('/ultrasound-metric')">pulsatility index</a>
+          <nuxt-link to="/ultrasound-metric">pulsatility index</nuxt-link>
           of the middle cerebral artery by that of the umbilical artery.
         </v-card-text>
         <v-card-actions>
