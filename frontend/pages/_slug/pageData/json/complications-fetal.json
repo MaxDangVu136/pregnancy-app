@@ -16,7 +16,7 @@
       "title": "How is reduced fetal growth detected?",
       "icon": "mdi-magnify",
       "iconColor": "var(--v-primary-base)",
-      "content": "Your midwife/doctor will monitor your pregnancy by measuring the <a href='/pregnancy-keep-baby-healthy'> fundal height </a> from 24 weeks of gestation.  If this measurement suggests that your pēpi may be smaller than expected, or its growth is slowing down, you may be referred for an <a href='/ultrasound-what-ultrasound-means'> ultrasound scan </a> to more closely check on pēpi’s growth."
+      "content": "Your midwife/doctor will monitor your pregnancy by measuring the <a href='/pregnancy-baby'> fundal height </a> from 24 weeks of gestation.  If this measurement suggests that your pēpi may be smaller than expected, or its growth is slowing down, you may be referred for an <a href='/ultrasound-what-ultrasound-means'> ultrasound scan </a> to more closely check on pēpi’s growth. <br></br>Doppler imaging of the <strong>ductus venosus (DV)</strong> helps to monitor blood flow around the wider fetal circulation early in pregnancy <i>(11-13 weeks)</i>. For high-risk pregnancies, e.g. involving a SGA pēpi , DV doppler is also performed in the second and third trimesters <i>(prior to 34 weeks)</i> to monitor potential complications. <br></br>Doppler imaging of the <strong>middle cerebral artery (MCA)</strong> is performed after <i>32 weeks</i> to monitor blood flow to the pēpi's upper body. From this, a clinical metric called <strong>CPR (Cerebroplacental Ratio)</strong> is reported to indicate the wellbeing of the pēpi. This ratio is calculated by dividing the <a href='/ultrasound-metric'>pulsatility index</a> of the MCA by that of the umbilical artery."
     },
     {
       "id": "2.a.c",
@@ -30,7 +30,7 @@
       "title": "What does this mean for my pregnancy care?",
       "icon": "mdi-hospital",
       "iconColor": "var(--v-primary-base)",
-      "content":"Reduced fetal growth means that your baby is not growing as well as expected. This can be due to a variety of reasons, including poor function of the placenta, poor blood flow to the placenta, and poor nutrient and oxygen uptake by the pēpi. <br /><br />These issues can lead to a variety of problems for your pēpi, including: <ul><li>Growth restriction.</li><li>Low birth weight.</li><li>Increased risk of complications during pregnancy and birth.</li></ul>"
+      "content":"Reduced fetal growth means that your baby is not growing as well as expected. This can be due to a variety of reasons, including poor function of the placenta, poor blood flow to the placenta, and poor nutrient and oxygen uptake by the pēpi. These issues can lead to a variety of problems for your pēpi, including: <ul><li>Growth restriction.</li><li>Low birth weight.</li><li>Increased risk of complications during pregnancy and birth.</li></ul>"
     },
     {
       "id": "2.a.e",
