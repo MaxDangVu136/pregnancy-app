@@ -144,7 +144,7 @@
         </v-card-title>
 
         <v-card-text class="pt-4 fetal-weight-dialog-text">
-          Doctors estimates by measuring the following: 
+          Doctors estimate the fetal weight by measuring the following: 
           <ul>
             <li>Length of the main thigh bone (the femur),</li>
             <li>The distance from the top of the head to the bottom of the spine (crown-rump length),</li>
