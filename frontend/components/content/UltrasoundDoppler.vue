@@ -70,7 +70,7 @@
         <v-btn 
           text 
           color="primary" 
-          class="medical-term-btn"s
+          class="medical-term-btn"
           @click="showCPRDialog = true"
         >
         CPR (Cerebroplacental Ratio)
