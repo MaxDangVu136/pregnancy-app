@@ -48,5 +48,12 @@ hr{
 .content-text li,
 .prose li,
 .conclusion-content li {
+  display: list-item;
   margin-bottom: 0.5rem;
+}
+
+.content-text li::marker,
+.prose li::marker,
+.conclusion-content li::marker {
+  color: currentColor;
 }

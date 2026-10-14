@@ -2,7 +2,7 @@
   <div>
     <v-card class="timeline-card">
       <v-card-text class="content-text">
-        <p>At 5-6 weeks of gestation. This scan aims to:</p>
+        <p>You may have a scan at 5-6 weeks of gestation when medical reasons or health risk factors are present. The scan aims to:</p>
         <ul>
           <li>
             Check the location of the pregnancy (that it is in the uterus and
@@ -23,8 +23,8 @@
     <v-card class="timeline-card">
       <v-card-text class="content-text">
         <p>
-          At 12 weeks of gestation. This is often the first scan you might
-          have, and aims to:
+          At 12 weeks of gestation, this is often the first scan as part of standard pregnancy care. 
+          The scan aims to:
         </p>
         <ul>
           <li>Determine if there is a single pēpi or twins/triplets.</li>
@@ -50,25 +50,24 @@
       <!--TODO Could also add in here about checking blood flow to the placenta / uterine artery dopplers  -->
       <!-- TODO: Link to doppler ultrasound in pregnancy after "How easily blood is flowing to the placenta" -->
       <v-card-text class="content-text">
-        <p>At 20 weeks of gestation. This scan focusses on checking:</p>
+        <p>At 20 weeks of gestation, you will have another scan that checks on the following:</p>
         <ul>
-          <li>Anatomy of all the major organs.</li>
-          <li>
-            That the limbs have formed (arms, legs, hands and feet), and if
-            any movement can be seen.
+          <li>How the pēpi is growing and developing, which is indicated by estimating the
+            <v-btn
+              text
+              small
+              color="primary"
+              class="medical-term-btn"
+              @click="showFetalWeightDialog = true"
+            >
+              fetal weight
+            </v-btn>.
           </li>
-          <li>
-            Your pēpi's growth by measuring the length of the main thigh bone
-            (the femur), the distance from the top of its head to the bottom
-            of its spine (crown-rump length), and the circumference of its
-            head and abdomen.
-          </li>
+          <li>The anatomy of all the major organs.</li>
+          <li>That the limbs have formed (arms, legs, hands and feet), and if any movement can be seen.</li>
           <li>How the heart is beating.</li>
           <li>How easily blood is flowing to the placenta.</li>
-          <li>
-            The amount of fluid around your pēpi. Low levels of amniotic fluid
-            can be an indicator of pregnancy complications.
-          </li>
+          <li>The amount of fluid around your pēpi. Low levels of amniotic fluid can be an indicator of pregnancy complications.</li>
           <li>Where the placenta is growing.</li>
         </ul>
       <figure class="figure-group"; style='text-align: center;'>
@@ -82,7 +81,7 @@
         </figure>
         <figcaption><small>Examples of a 20 week ultrasound scan of the pēpi, with key body parts labelled in <strong>red</strong>. &copy; 2025 James Lab & Pregnancy Modelling Group. All rights reserved.</small></figcaption>
       </figure>
-      </v-card-text>
+       </v-card-text>
     </v-card>
 
     <!-- Ectopic Pregnancy Dialog -->
@@ -135,6 +134,33 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
+
+    <!-- Fetal Weight Dialog  -->
+     <v-dialog v-model="showFetalWeightDialog" max-width="500" z-index="1000" persistent>
+      <v-card>
+        <v-card-title class="headline">
+          <v-icon left color="info">mdi-ruler</v-icon>
+          Fetal Weight
+        </v-card-title>
+
+        <v-card-text class="pt-4 fetal-weight-dialog-text">
+          Doctors estimate the fetal weight by measuring the following: 
+          <ul>
+            <li>Length of the main thigh bone (the femur),</li>
+            <li>The distance from the top of the head to the bottom of the spine (crown-rump length),</li>
+            <li>The circumferences of the head and abdomen.</li>
+          </ul>
+        </v-card-text>
+
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn color="primary" text @click="showFetalWeightDialog = false">
+            Close
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+    
   </div>
 </template>
 
@@ -146,6 +172,7 @@ export default {
     return {
       showEctopicDialog: false,
       showNuchalDialog: false,
+      showFetalWeightDialog: false,
     };
   },
 
@@ -204,6 +231,17 @@ export default {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 0;
+}
+
+.fetal-weight-dialog-text ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 1.5rem;
+}
+
+.fetal-weight-dialog-text li {
+  display: list-item;
+  margin-bottom: 0.5rem;
 }
 
 .figure-group {

@@ -16,14 +16,14 @@
         to measure the movement of blood through vessels.
       </p>
       <p class="text-lg leading-relaxed mb-6">
-        In pregnancy, the main blood vessels that are checked by Doppler ultrasound are the 
+        If you have concerns about your pēpi's health during pregnancy, Doppler ultrasound can be used to check some key blood vessels, such as the 
         <v-btn 
           text 
           color="primary" 
           class="medical-term-btn"
           @click="showUterineDialog = true"
         >
-        uterine artery
+        uterine
         </v-btn>
         and the
         <v-btn 
@@ -32,8 +32,8 @@
           class="medical-term-btn"
           @click="showUmbilicalDialog = true"
         >
-          umbilical artery
-        </v-btn> <strong>(see example below)</strong>. 
+          umbilical
+        </v-btn> arteries <i>(see example below)</i>. 
         These vessels are large enough to easily image, and provide useful information about downstream blood flow through the uterus and the placenta respectively. Red or blue spots on the image indicate blood flow towards the ultrasound probe, and away from it respectively. Dark shades on the image show slow blood flow, and light shades for faster blood flow.
         <!-- Normal Doppler -->
         <!-- <img src="https://www.researchgate.net/profile/Kilian-Pohl/publication/221363274/figure/fig1/AS:305378391805956@1449819290476/llustration-of-shape-patterns-conveyed-by-Doppler-images-for-various-cardiac.png" alt="Normal Doppler" /> -->
@@ -45,7 +45,7 @@
         </figure>
       </p>
       <p class="text-lg leading-relaxed mb-6">
-        Sometimes if blood flow in the uterine or umbilical artery is abnormal, Doppler ultrasound images can be taken of major blood vessels in the fetus. These vessels include the 
+        When blood flow in the uterine or umbilical arteries is abnormal, Doppler ultrasound images are taken of major fetal blood vessels, such as the 
         <v-btn 
           text 
           color="primary" 
@@ -62,13 +62,11 @@
           @click="showMCADialog = true"
         >
         middle cerebral artery (MCA)
-        </v-btn>.
+        </v-btn>. You can find more information about fetal complications <nuxt-link to="/complications-fetal">here</nuxt-link>, such as FGR or SGA.
       </p> 
+      <!--
       <p class="text-lg leading-relaxed mb-6">
-        Imaging the DV helps to monitor blood flow around the wider fetal circulation early in pregnancy <strong>(11-13 weeks)</strong>. For high-risk pregnancies, e.g. involving a <a href='/complications-fetal'>small-for-gestational-age (SGA)</a> fetus, DV doppler is also performed in the second and third trimesters to monitor potential complications.
-      </p>
-      <p class="text-lg leading-relaxed mb-6">
-        Imaging the MCA is performed after <strong>32 weeks</strong> to monitor blood flow to the pēpi's upper body. From this, a useful clinical metric called 
+        Doppler imaging of the DV helps to monitor blood flow around the wider fetal circulation early in pregnancy <strong>(11-13 weeks)</strong>. For high-risk pregnancies, e.g. involving a <a href='/complications-fetal'>small-for-gestational-age (SGA)</a> fetus, DV doppler is also performed in the second and third trimesters <strong>(prior to 34 weeks)</strong> to monitor potential complications. Imaging the MCA is performed after <strong>32 weeks</strong> to monitor blood flow to the pēpi's upper body. From this, a clinical metric called 
         <v-btn 
           text 
           color="primary" 
@@ -79,11 +77,10 @@
         </v-btn>
         is reported to indicate the wellbeing of the fetus.
       </p> 
+      -->
       <p class="text-lg leading-relaxed mb-6">
         Doppler ultrasound produces a signal in the form of a wave across each heartbeat. Interpreting the shape of that wave provides information about fetal health. Each major vessel in the body produces a 'signature' shape. Your clinical team can use different measurements and features taken from the shape of these waveforms to understand if blood is flowing to the placenta and pēpi normally, or if it may be reduced.
       </p>
-      <!-- TODO: MCA is common after 32 weeks - would be ideal to have a simple clear explanation of this as mention of the brain  creates anxiety  ++Also, we only report the CPR (ration between MCA PI and umA PI)_-->
-
     <!-- Dialogs -->
 
     <v-dialog v-model="showDopplerDialog"   max-width="600">
