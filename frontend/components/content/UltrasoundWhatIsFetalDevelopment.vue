@@ -1,5 +1,7 @@
 <template>
   <div>
+    Ultrasound images are ideal for monitoring fetal development throughout your pregnancy. In New Zealand, pregnant women are offered two ultrasound scans as part of standard care (at 12 weeks and 20 weeks gestation, respectively).
+    
     <v-card class="timeline-card">
       <v-card-text class="content-text">
         You may have a scan at <strong>5-6 weeks</strong> of gestation when medical reasons or health risk factors are present (e.g. you have pain and/or bleeding). The scan aims to check the location of the pregnancy (that it is in the uterus and not
