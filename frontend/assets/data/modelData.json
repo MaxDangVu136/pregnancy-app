@@ -24,7 +24,7 @@
       "waveform": {
         "xAxis": "Time (s)",
         "xDataPath": "/waveforms/normal/time.csv",
-        "yAxis": "Velocity",
+        "yAxis": "Velocity (cm/s)",
         "lineTitle": "Normal",
         "yDataPath": "/waveforms/normal/signal.csv",
         "waveformImg": "/img/examples/normal-ultrasound.jpg",
@@ -64,7 +64,7 @@
       "waveform": {
         "xAxis": "Time (s)",
         "xDataPath": "/waveforms/fgr/time.csv",
-        "yAxis": "Velocity",
+        "yAxis": "Velocity (cm/s)",
         "yDataPath": "/waveforms/fgr/signal.csv",
         "title": "Umbilical artery blood flow velocity (FGR)",
         "waveformImg": "/img/examples/fgr-ultrasound.jpeg",
@@ -104,7 +104,7 @@
       "waveform": {
         "xAxis": "Time (s)",
         "xDataPath": "/waveforms/gdm/time.csv",
-        "yAxis": "Velocity",
+        "yAxis": "Velocity (cm/s)",
         "lineTitle": "Gestational Diabetes Melitus",
         "yDataPath": "/waveforms/gdm/signal.csv",
         "title": "Umbilical artery blood flow velocity (GDM)",
