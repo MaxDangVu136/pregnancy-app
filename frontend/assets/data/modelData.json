@@ -115,7 +115,7 @@
         "description": "GDM blood flow is increased compared to normal.",
         "colors": {
           "normal": "#FF9800",
-          "colorblind": "#9C27B0"
+          "colorblind": "#D55E00"
         },
         "timeOffset": 1.2
       }
