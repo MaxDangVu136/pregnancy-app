@@ -18,7 +18,7 @@
           </h1>
           
           <img
-            src="/img/landing/landing-page.png"
+            :src="getImagePath('/img/landing/landing-page.png')"
             alt="Pregnancy journey landing"
             class="landing-image"
           />
