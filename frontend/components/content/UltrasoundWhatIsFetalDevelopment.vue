@@ -92,7 +92,7 @@
 
         <v-card-text class="pt-4">
           <p>
-            An ectopic pregnancy occurs when a fertilized egg implants outside
+            An ectopic pregnancy occurs when a fertilised egg implants outside
             the uterus, most often in a fallopian tube. This can be dangerous
             and requires prompt medical attention.
           </p>

@@ -1,21 +1,21 @@
 {
-  "title": "Pregnancy is an exciting time!",
+  "title": "Pregnancy can be a meaningful journey that looks different for everyone.",
   "description": "Nau mai, haere mai! Whether you're experiencing a smooth pregnancy or navigating unexpected challenges, this app is here to support you and your whānau every step of the way. Designed especially for people in Aotearoa New Zealand, we offer trusted information, helpful tools, and guidance to help you understand your health and make confident decisions.",
   "items": [
     {
       "title": "What is happening in pregnancy?",
       "description": "Information on how your body changes to support your pēpi's (baby) growth during pregnancy, and how your midwife/doctor will track the health of you and your pēpi.",
       "image": "/img/landing/pregnancy.svg",
-      "backgroundColor": "#7A3520",
+      "backgroundColor": "#cb3852",
       "link": "/pregnancy-changes"
     },
 
     {
       "index": 4,
       "title": "What does my ultrasound scan mean?",
-      "description": "Ultrasound scans let doctors check on the health of your pēpi (and its placenta). Use our interactive tool to better understand what ultrasound is measuring, how it can tell us about pēpi's health, and what your scan may mean.",
+      "description": "Ultrasound scans let doctors check on the health of your pēpi (and its placenta). Use our interactive tool to better understand what ultrasound measures, how it can tell us about pēpi's health, and what your scan may mean.",
       "image": "/img/landing/ultrasound.svg",
-      "backgroundColor": "#185168",
+      "backgroundColor": "#05314c",
       "link": "/ultrasound-what-is-ultrasound"
     },
     
@@ -24,7 +24,7 @@
       "title": "How to navigate pregnancy complications?",
       "description": "What you need to know about why complications occur, how they are detected, and what this may mean for your pregnancy journey and beyond.",
       "image": "/img/landing/embryo_icon.svg",
-      "backgroundColor": "#313657",
+      "backgroundColor": "#185168",
       "link": "/complications-fetal"
     },
     {
@@ -32,13 +32,13 @@
       "title": "What does pregnancy care look like in Aotearoa NZ?",
       "description": "Information on care pathways you can choose in NZ for your pregnancy, how to find a midwife, and how care may change if there are any concerns about the pregnancy.",
       "image": "/img/landing/clinic.svg",
-      "backgroundColor": "#24507F",
+      "backgroundColor": "#2c6999",
       "link": "/clinical-mid-wife"
     },
     {
       "index": 0,
       "title": "What pregnancy / pēpi (baby) support services are available?",
-      "description": "The pregnancy experience is different for everyone. Here you can find information on support services available for you and your whānau (family) to help navigate your journey, whatever it may look like.",
+      "description": "The pregnancy experience is different for everyone. Here, you can find information about support services available to you and your whānau (family) to help you navigate your journey, whatever it may look like.",
       "image": "/img/landing/heart.svg",
       "backgroundColor": "#470b4d",
       "link": "/support-services"
@@ -46,9 +46,9 @@
     {
       "index": 5,
       "title": "About us",
-      "description": "Learn more about the team behind this app, and how we are working to support you and your whānau (family).",
+      "description": "Learn more about the team behind this app and how we are working to support you and your whānau (family).",
       "image": "/img/landing/about-us.svg",
-      "backgroundColor": "#062405",
+      "backgroundColor": "#647c24",
       "link": "/about"
     }
   ]
